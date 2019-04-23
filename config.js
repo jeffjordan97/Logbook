@@ -1,43 +1,43 @@
 // LOGS
 window.albumGallery = {
     1: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/avenue-hq.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/avenue-hq.JPG',
         information: 'Trip to Avenue HQ'
     },
     2: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/linkedIn.png',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/linkedIn.PNG',
         information: 'LinkedIn Post from Shop direct'
     },
     3: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/balcony-brief.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/balcony-brief.JPG',
         information: 'Balcony Brief'
     },
     4: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-5.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-5.JPG',
         information: 'Retail Week Event'
     },
     5: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-3.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-3.JPG',
         information: 'Treats & Celebrations'
     },
     6: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/black-friday.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/black-friday.JPG',
         information: 'Black Friday'
     },
     7: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-2.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-2.JPG',
         information: 'Retail Week Event'
     },
     8: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-3.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-3.JPG',
         information: 'Retail Week Event'
     },
     9: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-4.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-4.JPG',
         information: 'Retail Week Event'
     },
     10: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-1.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-1.JPG',
         information: 'Retail Week Event'
     },
     11: {
@@ -45,55 +45,55 @@ window.albumGallery = {
         information: 'UX Lab Study'
     },
     12: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/mike-bday-1.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/mike-bday-1.JPG',
         information: 'Celebration of Birthdays'
     },
     13: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/mike-bday-2.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/mike-bday-2.JPG',
         information: 'Celebration of Birthdays'
     },
     14: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-1.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-1.JPG',
         information: 'Visit to Distribution Centre'
     },
     15: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-2.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-2.JPG',
         information: 'Visit to Distribution Centre'
     },
     16: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-3.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-3.JPG',
         information: 'Visit to Distribution Centre'
     },
     17: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-4.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-4.JPG',
         information: 'Visit to Distribution Centre'
     },
     18: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-5.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-5.JPG',
         information: 'Visit to Distribution Centre'
     },
     19: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-6.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-6.JPG',
         information: 'Visit to Distribution Centre'
     },
     20: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-7.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-7.JPG',
         information: 'Visit to Distribution Centre'
     },
     21: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-1.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-1.JPG',
         information: 'Treats & Celebrations'
     },
     22: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-2.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-2.JPG',
         information: 'Treats & Celebrations'
     },
     23: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-4.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-4.JPG',
         information: 'Treats & Celebrations'
     },
     24: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-5.jpg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-5.JPG',
         information: 'Treats & Celebrations'
     }
 }
@@ -106,7 +106,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
                 date: '02/07/18 - 06/07/18',
                 information: `Introductory week, getting to know the team in which I would be working in for the next few months, 
 				understanding the systems they use, with an introduction to the processes involved with BAU (Business As Usual) updates.`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/020718-out.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/020718-out.JPG',
                 days: {
                     1: {
                         title: `Day 1 - 2<sup>nd</sup> July 2018`,
@@ -210,7 +210,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				BAU (business as usual) updates, specifically to Littlewoods Ireland, with the idea to start the Brand Boutique landing page. This not only helped me to further understand the processes behind BAU updates, but also allowed for additional time to work on my 
 				coding skills. A main learning focus this week was towards time management and attention to detail, as with so many small updates occurring at one time, 
 				the awareness required to reduce the possibility of error was increased drastically.`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/090718-curves.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/090718-curves.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 09<sup>th</sup> July 2018',
@@ -314,7 +314,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				built on both desktop and mobile. This page is designed for Littlewoods Ireland only, given the debutant ball is an event that occurs 
 				in Ireland at the end of July. The purpose of this page is to allow for promotion of dresses, suits, shoes, bags and accessories, 
 				providing inspiration for outfit ideas.`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/270718-avenuehq.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/270718-avenuehq.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 23<sup>rd</sup> July 2018',
@@ -399,7 +399,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				ways of working within the team. Joe Parker spent time talking about site update performance, with the future goal
 				of implementing lazy loading to improve page loading time. James McLennan, one of the frontend developers, also 
 				sat in on this meeting to discuss how we can implement BEM to our HTML and CSS code to improve its readability.`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/300718-bem.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/300718-bem.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 30<sup>th</sup> July 2018',
@@ -453,7 +453,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
                 information: `This week provided me with an indication of how well I'm progressing in my role at Shop Direct, discussing both my 
 				progression with HTML and CSS coding abilities, as well as further improvements I can make, including the implementation of the BEM
 				methodology as explained by Jay earlier in the week.`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/030818-michKeeganLP.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/030818-michKeeganLP.JPG',
                 days: {
                     1: {
                         title: 'Day 3 - 01<sup>st</sup> August 2018 **',
@@ -504,7 +504,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				also able to spend an afternoon volunteering at the Belvidere family centre with several other interns, learning how 
 				they help house the homeless and the circumstances under which people end up homeless. The Belvidere family centre is 
 				one of the charities supported by Shop Direct.`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/080818-charity.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/080818-charity.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 06<sup>th</sup> August 2018',
@@ -587,7 +587,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				16/08 updates were live. This was the first time I had been given responsibility to send this email and push 
 				updates live, hence I was relatively nervous, however very motivated to continue progressing in both technical and 
 				business focused abilities.`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/160818-sign-off.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/160818-sign-off.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 13<sup>th</sup> August 2018',
@@ -673,7 +673,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				constraints or technical ability, and how they can aid in ensuring the project is ready to go live on time. 
 				I also iplemented the BEM methodology to the Russell Hobbs brand store landing page, and was introduced 
 				to Supplier Funded team and the process of how they perform updates.`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/200818-schedule.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/200818-schedule.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 20<sup>th</sup> August 2018 **',
@@ -774,7 +774,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				being asked to remove the page from the Littlewoods and Littlewoods Ireland sites as requested by the brand (after 
 				versions for their page had been built).
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/310818-kate-spade.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/310818-kate-spade.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 27<sup>th</sup> August 2018 **',
@@ -866,7 +866,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				upcoming TV advert, hence it being essential the page is ready and signed off on time.
 				This week I also attended a meeting with Mike, Adrienne, Amy Parkinson & Karen Miah to discuss the idea of implementing 
 				a ‘performance hub’, a place to find content with all things related to sports & fitness.`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/030918-atl.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/030918-atl.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 03<sup>rd</sup> September 2018 **',
@@ -948,7 +948,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				learn more about how the use of technology has and will continue to drastically change consumer habits 
 				when buying goods online.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/100918-rw.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/100918-rw.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 10<sup>th</sup> September 2018',
@@ -1033,7 +1033,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				20/09 site updates, involving sending out the missing links email to retail trading, and the missing 
 				briefs email to the brands team (usually handled by Sam).
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/170918-lu.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/170918-lu.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 17<sup>th</sup> September 2018',
@@ -1137,7 +1137,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				home insurance is currently unavailable. The pressure to provide staging links for these builds before the 
 				end of the day was high. After my efforts towards the FS task, I was awared a Shine reward from Gareth Naser.				
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/240918-insurance.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/240918-insurance.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 24<sup>th</sup> September 2018',
@@ -1243,7 +1243,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				but it showed to me the importance of a team willing to help each other. This week I also spent an afternoon with 
 				Lucie Farrington, the intern in the UX team, to discuss both our areas of work.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/011018-outdoor.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/011018-outdoor.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 01<sup>st</sup> October 2018',
@@ -1341,7 +1341,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				also I received a confirmation letter from Matthew Wafer, confirming the end of my probationary 
 				period, therefore officially working for Shop Direct for the remainder of my internship.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/081018-probation.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/081018-probation.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 08<sup>th</sup> October 2018 **',
@@ -1430,7 +1430,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				began building the Smart Home landing page for mobile, the biggest build I had worked on to date, given a 
 				5-page weight in the content schedule. 
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/151018-smart.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/151018-smart.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 15<sup>th</sup> October 2018',
@@ -1504,7 +1504,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				on updating the Gaming hub landing page for desktop, including videos and auto scroll features. 
 				I also had a meeting with Matt Wafer, discussing university submissions and deadlines.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/221018-gaming.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/221018-gaming.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 22<sup>th</sup> October 2018',
@@ -1574,7 +1574,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				the inner tabbed landing page within one of the dropdowns. This build is the most JavaScript heavy project I've worked on 
 				so far at Shop Direct.				
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/291018-xbox.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/291018-xbox.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 29<sup>th</sup> October 2018',
@@ -1617,7 +1617,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				for dropdowns. After building the brandstore, I learned that a more efficient process would have 
 				been to develop the functionality for the page, and then add in content.				
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/011118-xbox.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/011118-xbox.JPG',
                 days: {
                     1: {
                         title: 'Day 4 - 01<sup>st</sup> November 2018',
@@ -1649,7 +1649,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				desktop build. Other projects this week included The North Face brand store update, 4thway updates for 
 				several brands, as well as working on my logbook updates.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/291018-xbox.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/291018-xbox.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 05<sup>th</sup> November 2018',
@@ -1705,7 +1705,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				many sliders on the page, the with the primary slider determining the content displayed below. This became 
 				relatively difficult to manage all the sliders, given their different properties and styles.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/121118-microsoft.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/121118-microsoft.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 12<sup>th</sup> November 2018 **',
@@ -1782,7 +1782,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				set up with computers for content updates, with a separate working area for the branding team to update us on 
 				changes that need actioning.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/191118-blackFriday.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/191118-blackFriday.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 19<sup>th</sup> November 2018',
@@ -1867,7 +1867,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				date. Other builds I worked on this week included the Ryobi brand store, the Playmobil brand store, and 
 				several 4thways for desktop and mobile.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/261118-ryobi.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/261118-ryobi.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 26<sup>th</sup> November 2018 **',
@@ -1940,7 +1940,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				update on my current experience so far at Shop Direct. We started by having a chat in costa, followed by a brief 
 				building tour, then meeting my managers, Matt & Mike, so they could discuss my progress.	
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/031218-visit.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/031218-visit.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 03<sup>rd</sup> December 2018',
@@ -2002,7 +2002,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				As well as this build, I had a catch up with Matt, discussing the move to the agile squads. He mentioned that I need 
 				to arrange meetings with certain people from the discovery tribe to find out more. 
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/101218-event.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/101218-event.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 10<sup>th</sup> December 2018',
@@ -2077,7 +2077,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				workflow will be managed during the Christmas period. Given Jill and Luis were away from the team, myself, Paul and Shaun had to pick up 
 				their current projects as well as our own. Consequently, I decided to take on ‘The one for Headphones’ mobile build developed by Luis. 
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/171218-headphones.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/171218-headphones.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 17<sup>th</sup> December 2018',
@@ -2151,7 +2151,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				and only downloading them when they come into view. The purpose of this is to reduce page load in times, useful for customers 
 				on a limited data package, should they not view the inspiration tabs.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/010119-loading.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/010119-loading.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 01<sup>st</sup> January 2019',
@@ -2200,7 +2200,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				Also, this week I spent time building ‘The One for Dishwashers landing page on desktop and mobile, for both brands. This was a 
 				relatively simple built, as I was able to copy a similar existing build on site, changing the content and several layout features.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/070119-javascript30.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/070119-javascript30.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 07<sup>th</sup> January 2019',
@@ -2262,7 +2262,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				which I handled. I then spoke with Mike and Adrienne about the process of adding or updating BNPL banners. Other builds this week 
 				included The One for Dishwashers landing page for mobile, and the Starlink brand store update.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/180119-starlink.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/180119-starlink.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 14<sup>th</sup> January 2019',
@@ -2329,7 +2329,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				of the gallery page. Throughout the week I arranged meetings with each member of the discovery tribe to 
 				find out about their role in the squad.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/210119-dt.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/210119-dt.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 21<sup>st</sup> January 2019 **',
@@ -2428,7 +2428,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				the four category teams, fashion, home, electrical and developing categories, as well as retail 
 				planning and operations, and marketing.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/280119-intel.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/280119-intel.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 28<sup>th</sup> January 2019 **',
@@ -2497,7 +2497,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				one of the frontend developers in the Customer Journey squad.
 
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/010219-dt.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/010219-dt.JPG',
                 days: {
                     1: {
                         title: 'Day 5 - 01<sup>st</sup> February 2019 **',
@@ -2672,7 +2672,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				I worked on styling for my logbook website. I spent time with Jay, producing an example structure of how I can use 
 				JavaScript from an external file, then manipulate this information to display certain content upon a user action (e.g. click).
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/180219-jay.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/180219-jay.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 18<sup>th</sup> February 2019',
@@ -2727,7 +2727,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				where there are 11 million items returned each year. Shaw is the Distribution centre, with the bulk-capacity storage unit (BCS) 
 				used to store products.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/250219-distribution.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/250219-distribution.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 25<sup>th</sup> February 2019',
@@ -2878,7 +2878,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				this week was the Littlewoods ‘One for’ landing pages videos. This involved adding in videos 
 				to several pages across the LW site, a total of 23 on desktop and mobile separately.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/110319-video.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/110319-video.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 11<sup>th</sup> March 2019',
@@ -2960,7 +2960,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				team table tennis tournament in the Cube in Skyways 2, which Luis won and I came second. We then all 
 				went bowling at Edge lane which was a good laugh.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/180319-pingpong.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/180319-pingpong.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 18<sup>th</sup> March 2019',
@@ -3038,7 +3038,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				building this update for desktop, I took on mobile. I also attended a tour of the Customer 
 				Closeness Centre (CCC) to find out more about what they do.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/250319-ccc.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/250319-ccc.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 25<sup>th</sup> March 2019',
@@ -3096,7 +3096,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				given the content schedule could be easily covered by the rest of the team, and that I had no 
 				other projects currently underway.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/010419-site.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/010419-site.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 01<sup>st</sup> April 2019',
@@ -3153,7 +3153,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				financial situation of the department, meaning that I would be unable to extend my contract throughout 
 				the summer. Consequently, I booked in my remanining holdays before finishing at the end of the month.
 				`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/080419-site.jpg',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/080419-site.JPG',
                 days: {
                     1: {
                         title: 'Day 1 - 08<sup>th</sup> April 2019',
