@@ -41,7 +41,7 @@ window.albumGallery = {
         information: 'Retail Week Event'
     },
     11: {
-        image: 'https://jeffjordan97.github.io/Logbook/images/Album/ux-lab.jpeg',
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/ux-lab.JPEG',
         information: 'UX Lab Study'
     },
     12: {
@@ -314,7 +314,7 @@ window.monthsArr = { //Global variable - created from the window so declared at 
 				built on both desktop and mobile. This page is designed for Littlewoods Ireland only, given the debutant ball is an event that occurs 
 				in Ireland at the end of July. The purpose of this page is to allow for promotion of dresses, suits, shoes, bags and accessories, 
 				providing inspiration for outfit ideas.`,
-                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/270718-avenuehq.JPG',
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/270718-avenuehq.jpg',
                 days: {
                     1: {
                         title: 'Day 1 - 23<sup>rd</sup> July 2018',
