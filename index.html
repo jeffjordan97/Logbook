@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Jeff's Log Book</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1,
+	user-scalable=no, width=device-width">
+	<meta name="author" content="Jeffrey Jordan">
+	<meta name="description" content="Logbook">
+	<meta name="copyright" content="Jeffrey Jordan 2019">
+	<meta name="date" content="2019-02-15" scheme="YYYY-MM-DD">
+
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+	<!-- CUSTOM CSS START -->
+	<style type="text/css">
+		.btn-primary {
+			background-color: #32689B;
+			border-color: #32689B;
+		}
+
+		.btn-primary:hover {
+			background-color: #285279;
+			border-color: #285279;
+			color: #fff !important;
+		}
+
+		#pageContainer .navbar .navbar-brand strong {
+			font-size: 1.5rem;
+		}
+
+		#tabs {
+			width: auto;
+			margin: 0 auto;
+			background-color: #f2f2f2;
+		}
+
+		.tabs__item {
+			height: auto;
+			width: 100%;
+			text-align: left;
+			cursor: pointer;
+		}
+
+		#tabs .tabs__item h1 {
+			padding-left: 3rem;
+		}
+
+		/* NAVIGATION BAR STYLES */
+		.navbar-nav.ml-auto {
+			margin-right: 10rem;
+		}
+
+		.nav-item {
+			position: relative;
+		}
+
+		.navbar-dark .navbar-nav .nav-link:before,
+		.navbar-dark .navbar-nav .nav-item.active .nav-link:before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			bottom: 0;
+			left: 0;
+			background-color: #fff;
+			visibility: hidden;
+			-webkit-transform: scaleX(0);
+			transform: scaleX(0);
+			-webkit-transition: all 0.3s ease-in-out 0s;
+			transition: all 0.3s ease-in-out 0s;
+		}
+
+		.navbar-dark .navbar-nav .nav-link:focus,
+		.navbar-dark .navbar-nav .nav-link:hover:before {
+			visibility: visible;
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+		}
+
+		.navbar-dark .navbar-nav .active>.nav-link,
+		.navbar-dark .navbar-nav .nav-link.active,
+		.navbar-dark .navbar-nav .nav-link.show,
+		.navbar-dark .navbar-nav .show>.nav-link {
+			position: relative;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		/* GENERAL PAGE STYLES */
+		/* Div Container Styling (Show & Hide), fade */
+		#thisContainer>div {
+			background-color: #F1F5F8;
+			display: none;
+			opacity: 0;
+		}
+
+		#thisContainer>div:not(.hideDiv) {
+			display: block;
+			position: relative;
+			opacity: 1;
+			animation: fade 0.5s;
+		}
+
+		@keyframes fade {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+
+		#thisContainer .jumbotron {
+			padding: 1rem 1rem;
+		}
+
+
+		/* HOME PAGE STYLES */
+		#home .jumbotronContainer {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#home .jumbotron {
+			/* height: -webkit-fill-available; */
+			display: flex;
+			align-items: center;
+			padding: 15px;
+			margin-bottom: 0;
+			background: rgba(233, 236, 239, 0.8);
+		}
+
+		#home {
+			display: flex;
+			justify-content: center;
+			align-content: center;
+		}
+
+		#home .homeContainer {
+			background-image: url(images/sdinside.jpg);
+			height: -webkit-fill-available;
+			background-size: cover;
+			background-position: center 40%;
+			filter: blur(2.5px);
+			z-index: -1;
+		}
+
+
+		/* Months Navbar Styles*/
+		.navbar-container {
+			position: relative;
+			display: flex;
+			overflow: auto;
+		}
+
+		@media (min-width: 576px) {
+			.container {
+				max-width: 100%;
+			}
+		}
+
+		@media (min-width: 1472px) {
+			.navbar-container {
+				justify-content: center;
+			}
+		}
+
+		@media (max-width: 1472px) {
+			.navbar-container .navbar-month:first-child {
+				margin-left: 4%;
+			}
+
+			.navbar-container .navbar-month:last-child {
+				padding-right: 4%;
+			}
+		}
+
+		@media (max-width: 768px) {
+
+
+			#home .jumbotron {
+				margin: 0 6%;
+			}
+		}
+
+		.navbar-month {
+			padding-right: 40px;
+			position: relative;
+		}
+
+		.navbar-month:not(:last-child)::after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 18px;
+			right: 0;
+			top: 55px;
+			width: 100%;
+			height: 2px;
+			border-top: 1px solid black;
+			z-index: 1;
+		}
+
+		.navbar-month:last-child {
+			padding-right: 0;
+		}
+
+		.navbar-month__title {
+			position: relative;
+		}
+
+		.navbar-month__circle {
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			position: relative;
+			margin: 0 auto;
+			background-color: #32689B;
+			z-index: 2;
+			margin-bottom: 15px;
+		}
+
+		.navbar-month__circle:hover {
+			/*box-shadow: 0 4px 4px rgba(0, 0, 0, 0.28);*/
+			cursor: pointer;
+			animation: pulse 2s infinite;
+		}
+
+		.navbar-month.selected .navbar-month__circle {
+			height: 40px;
+			width: 40px;
+			top: -5px;
+		}
+
+		@-webkit-keyframes pulse {
+			0% {
+				-webkit-box-shadow: 0 0 0 0 rgba(50, 104, 155, 0.4);
+			}
+
+			70% {
+				-webkit-box-shadow: 0 0 0 15px rgba(50, 104, 155, 0);
+			}
+
+			100% {
+				-webkit-box-shadow: 0 0 0 0 rgba(50, 104, 155, 0);
+			}
+		}
+
+		.navbar-month__circle--inner {
+			position: absolute;
+			height: 80%;
+			width: 80%;
+			top: 10%;
+			left: 10%;
+			border-radius: 50%;
+			margin: 0 auto;
+			background-color: #fff;
+
+		}
+
+		.navbar-month.selected .navbar-month__circle--inner {
+			border: 1px solid #000000;
+		}
+
+
+		/* Logbook - Month Card Styles*/
+		.container.cardsContainer {
+			max-width: 90%;
+		}
+
+		.cardsContainer {
+			margin-top: 3rem;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		.cardsContainer .card {
+			animation: fade 0.5s;
+		}
+
+		.cardsContainer .card:hover {
+			cursor: pointer;
+		}
+
+		.cardsContainer .card .card-title {
+			margin: 1.25em 1.25em 0 1.25em;
+			margin-bottom: 0;
+			border-bottom: 1px solid #6c757d;
+		}
+
+
+
+
+		/* Accordion Styles */
+		@media (min-width: 576px) {
+			.modal-dialog {
+				max-width: 900px;
+				margin: .5rem auto;
+			}
+		}
+
+
+		.modal img.modal-image {
+			height: auto;
+			width: 100%;
+			/* margin: 0 25%; */
+			/* margin-top: 1%; */
+			border-radius: .3rem;
+			/* background-size: cover; */
+		}
+
+		.modal .modal-image-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			max-height: 400px;
+			overflow: hidden;
+			border-radius: .3rem;
+		}
+
+		@media (max-width: 576px) {
+			.modal img.modal-image {
+				width: 100%;
+				margin: 0;
+			}
+		}
+
+		.accordion .card .card-header button.btn {
+			width: 100%;
+			display: flex;
+			/* justify-content: space-between; */
+			align-items: center;
+			position: relative;
+		}
+
+		.accordion .card .card-header button.btn .arrow {
+			border: solid black;
+			border-width: 0 3px 3px 0;
+			display: inline-block;
+			padding: 3px;
+			opacity: .5;
+			position: absolute;
+			top: 30%;
+			right: 0;
+			transform: rotate(225deg);
+			transform-origin: 50% 50%;
+			-webkit-transform: rotate(225deg);
+			transition: all 0.5s;
+
+		}
+
+		.accordion .card:hover .card-header button.btn .arrow {
+			opacity: 0.75;
+		}
+
+		.accordion .card .card-header button.btn.collapsed .arrow {
+
+			transform: rotate(-45deg);
+			-webkit-transform: rotate(45deg);
+			transition: all 0.5s;
+		}
+
+		.card sup {
+			margin-right: 4px;
+		}
+
+		body {
+			padding-right: 0px !important;
+		}
+
+		/*#album*/
+
+		#album #innerContainer {
+			position: relative;
+			max-width: 100%;
+			width: 100%;
+		}
+
+		#album img {
+			width: 100%;
+			transition: transform 0.5s ease-in;
+		}
+
+		#album .hover {
+			display: none;
+		}
+
+		#album .white-panel {
+			position: absolute;
+			background: white;
+			box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+			padding: 10px;
+		}
+
+		/*
+	stylize any heading tags withing white-panel below
+	*/
+
+		#album .white-panel h1 {
+			font-size: 1em;
+		}
+
+		#album .white-panel h1 a {
+			color: #A92733;
+		}
+
+		#album .white-panel:hover {
+			box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+			margin-top: -5px;
+			-webkit-transition: all 0.3s ease-in-out;
+			-moz-transition: all 0.3s ease-in-out;
+			-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.modal-open {
+			overflow-y: hidden;
+		}
+
+		.navbar-container::-webkit-scrollbar-track {
+			-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+			border-radius: 10px;
+			background-color: #F5F5F5;
+		}
+
+		.navbar-container::-webkit-scrollbar-thumb {
+			border-radius: 10px;
+			-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+			background-color: #C1C1C1;
+		}
+
+		.navbar-container::-webkit-scrollbar {
+			background-color: #F5F5F5;
+		}
+	</style>
+
+
+	<!-- Album -->
+	<style type="text/css">
+		#album .container.fill {
+			height: -webkit-fill-available;
+		}
+
+		#album #gallery {
+			/*column-count: 2;
+  column-gap: 1em;*/
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#album .item {
+			display: inline-block;
+			margin: 0 1em 1em 0;
+			cursor: pointer;
+			float: left;
+			overflow: hidden;
+			position: relative;
+		}
+
+		#album .item img {
+			max-width: 300px;
+			height: auto;
+			z-index: 1;
+		}
+
+		@media (min-width: 768px) {
+			#album .item:hover {
+				overflow: hidden;
+			}
+
+			#album .item:hover .hover {
+				display: flex;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				transition: background-color 0.5s;
+				background-color: rgba(0, 0, 0, 0.8);
+				justify-content: center;
+				align-items: center;
+			}
+
+			#album .item:hover img {
+				transform: scale(1.2);
+			}
+
+			#album .hover {
+
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: transparent;
+				transition: background-color 0.5s ease-in-out;
+			}
+
+			#album .item .hover:hover {
+				background-color: rgba(0, 0, 0, 0.8);
+				transition: background-color 0.5s ease-in;
+			}
+
+		}
+
+		@media (max-width: 630px) {
+			#album .item {
+				margin: 0 0 1em 0;
+			}
+		}
+
+		#album .item:hover .hover h2 {
+			margin: 0 10%;
+			color: #fff;
+			text-shadow: 1px 1px grey;
+			text-align: center;
+		}
+
+		#album .item.active:hover .hover h2 {
+			display: none;
+		}
+
+		#album .item.active:hover .hover {
+			transition: none;
+			background-color: transparent;
+		}
+
+		#album .item.active .hover:hover {
+			transition: none;
+			background-color: transparent;
+		}
+
+		#album .item.active:hover img {
+			transform: none;
+		}
+
+		#album .item.active {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.90);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0;
+			z-index: 9999;
+		}
+
+		#album .item.active .cross {
+			content: "+";
+			transform: rotate(45deg);
+			font-size: 48px;
+			color: white;
+			position: absolute;
+			top: 80px;
+			right: 120px;
+			background-color: rgba(0, 0, 0, 0.85);
+			border-radius: 50%;
+			width: 58px;
+			height: 58px;
+			text-align: center;
+			line-height: 48px;
+			z-index: 12;
+		}
+
+		#album .item.active img {
+			animation-name: active-in-img;
+			animation-duration: 1s;
+			/*animation-fill-mode: forwards;
+  animation-direction: alternate;*/
+		}
+
+		#album .item.active img {
+			display: block;
+			max-width: 90%;
+			width: auto;
+			max-height: 80vh;
+			opacity: 1;
+		}
+
+		@media (min-width: 576px) {
+			#album .container {
+				max-width: none;
+			}
+		}
+
+		@keyframes active-in-img {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+
+		}
+
+
+		/* Testing dialog */
+		body.modal-open-noscroll {
+			overflow-y: auto;
+		}
+
+		body.modal-open-noscroll .modal.show {
+			padding-right: 0 !important;
+			overflow: hidden;
+		}
+
+		.modal-open-noscroll .navbar-default,
+		.modal-open .navbar-default {
+			padding-right: 0 !important;
+		}
+	</style>
+
+	<!-- Contact  -->
+	<style type="text/css">
+		#contact {
+			height: -webkit-fill-available;
+		}
+
+		#contact #contactForm {
+			width: 80%;
+			margin: 0 10%;
+		}
+
+		#contactForm .col-md-6 {
+			margin-bottom: 10px;
+		}
+
+		#contactForm .row {
+			margin-bottom: 10px;
+		}
+
+		#contactForm .form-control {
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+		}
+
+		a:not([href]):not([tabindex]) {
+			color: #fff;
+			width: 100%;
+		}
+
+		#contactForm img.uni-logo {
+			max-height: 80px;
+		}
+
+		#contactForm .flexCenter {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+
+	<!-- CUSTOM CSS END -->
+
+
+
+
+
+
+
+	<!-- HTML START -->
+	<div id="pageContainer">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<a class="navbar-brand" href="#">
+				<img style="max-width:30px; max-height: 30px; margin-top: -6px; margin-right: 8px;"
+					src="\images\jjLogo.png">
+				Jeffrey Jordan
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+				aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#album">Album</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#logbook">Logbook</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div id="thisContainer">
+			<!-- HOME PAGE -->
+			<div id="home" class="thisContainer__item">
+				<div class="homeContainer"></div>
+				<div class="jumbotronContainer">
+					<section class="jumbotron text-center">
+						<div class="container">
+							<img src="/images/ShopDirectGroupLogo.png"
+								class="img-fluid mx-auto" style="max-height: 50px; max-width: 113px; margin-bottom: .3em">
+							<h1 class="jumbotron-heading">Jeffrey Jordan</h1>
+							<h2 class="jumbotron-heading">Frontend Web Developer</h2>
+							<p class="lead">A summary of my internship over the last 10 months working at Shop Direct.</p>
+							<p>
+								<a href="#" class="viewLogbook btn btn-primary my-2">View Logbook</a>
+								<a href="#" class="btn btn-secondary my-2">Download Logbook</a>
+								<!-- <a href="#" class="btn btn-secondary my-2">Contacts</a> -->
+							</p>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!-- ALBUM PAGE -->
+			<div id="album" class="thisContainer__item">
+				<section class="jumbotron text-center">
+					<div class="container">
+						<h1 class="jumbotron-heading">Album</h1>
+						<p class="lead text-muted">Here's just a few of the memories that have shaped my experience over the last 10
+							months working at Shop Direct.</p>
+						<p>
+							<a href="#" class="viewLogbook btn btn-primary my-2">View Logbook</a>
+							<a href="#" class="btn btn-secondary my-2">Download Logbook</a>
+							<!-- <a href="#" class="btn btn-secondary my-2">Contacts</a> -->
+						</p>
+					</div>
+				</section>
+				<div class="container fill">
+					<div id="gallery">
+					</div>
+				</div>
+			</div>
+			<!-- LOGBOOK PAGE -->
+			<div id="logbook" class="thisContainer__item">
+				<section class="jumbotron text-center">
+					<div class="container">
+						<h1 class="jumbotron-heading">Logbook</h1>
+						<p class="lead text-muted">A summary of my experience over the last 10 months working at Shop Direct.</p>
+						<p>
+							<a href="#" class="btn btn-primary my-2">Download Logbook</a>
+							<!-- <a href="#" class="btn btn-secondary my-2">Contacts</a> -->
+						</p>
+					</div>
+				</section>
+				<div class="navbar-container">
+
+					<div class="navbar-month" data-month="Jul">
+						<div class="navbar-month__title">
+							<h3>
+								July
+							</h3>
+						</div>
+						<div class="navbar-month__circle">
+							<div class="navbar-month__circle--inner"></div>
+						</div>
+					</div>
+
+					<div class="navbar-month" data-month="Aug">
+						<div class="navbar-month__title">
+							<h3>
+								August
+							</h3>
+						</div>
+						<div class="navbar-month__circle">
+							<div class="navbar-month__circle--inner"></div>
+						</div>
+					</div>
+
+					<div class="navbar-month" data-month="Sep">
+						<div class="navbar-month__title">
+							<h3>
+								September
+							</h3>
+						</div>
+						<div class="navbar-month__circle">
+							<div class="navbar-month__circle--inner"></div>
+						</div>
+					</div>
+
+					<div class="navbar-month" data-month="Oct">
+						<div class="navbar-month__title">
+							<h3>
+								October
+							</h3>
+						</div>
+						<div class="navbar-month__circle">
+							<div class="navbar-month__circle--inner"></div>
+						</div>
+					</div>
+
+					<div class="navbar-month" data-month="Nov">
+						<div class="navbar-month__title">
+							<h3>
+								November
+							</h3>
+						</div>
+						<div class="navbar-month__circle">
+							<div class="navbar-month__circle--inner"></div>
+						</div>
+					</div>
+
+					<div class="navbar-month" data-month="Dec">
+						<div class="navbar-month__title">
+							<h3>
+								December
+							</h3>
+						</div>
+						<div class="navbar-month__circle">
+							<div class="navbar-month__circle--inner"></div>
+						</div>
+					</div>
+
+					<div class="navbar-month" data-month="Jan">
+						<div class="navbar-month__title">
+							<h3>
+								January
+							</h3>
+						</div>
+						<div class="navbar-month__circle">
+							<div class="navbar-month__circle--inner"></div>
+						</div>
+					</div>
+
+					<div class="navbar-month" data-month="Feb">
+						<div class="navbar-month__title">
+							<h3>
+								February
+							</h3>
+						</div>
+						<div class="navbar-month__circle">
+							<div class="navbar-month__circle--inner"></div>
+						</div>
+					</div>
+
+					<div class="navbar-month" data-month="Mar">
+						<div class="navbar-month__title">
+							<h3>
+								March
+							</h3>
+						</div>
+						<div class="navbar-month__circle">
+							<div class="navbar-month__circle--inner"></div>
+						</div>
+					</div>
+
+					<div class="navbar-month" data-month="Apr">
+						<div class="navbar-month__title">
+							<h3>
+								April
+							</h3>
+						</div>
+						<div class="navbar-month__circle">
+							<div class="navbar-month__circle--inner"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container cardsContainer">
+					<div class="album py-5 bg-light">
+					</div>
+				</div>
+
+			</div>
+			<!-- CONTACT PAGE -->
+			<div id="contact" class="thisContainer__item">
+				<section class="jumbotron text-center">
+					<div class="container">
+						<h1 class="jumbotron-heading">Contact</h1>
+						<p class="lead text-muted">Get in touch via the contact form below.</p>
+					</div>
+				</section>
+
+				<div id="contactForm">
+					<section class="mb-4">
+						<!--Grid row-->
+						<div class="row">
+
+							<!--Grid column-->
+							<div class="col-md-9 mb-md-0 mb-5">
+								<form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+									<!--Grid row-->
+									<div class="row">
+
+										<!--Grid column-->
+										<div class="col-md-6">
+											<div class="md-form mb-0">
+												<label for="name" class="">Your name</label>
+												<input type="text" id="name" name="name" class="form-control" placeholder="Enter name">
+											</div>
+										</div>
+										<!--Grid column-->
+
+										<!--Grid column-->
+										<div class="col-md-6">
+											<div class="md-form mb-0">
+												<label for="email" class="">Your email</label>
+												<input type="text" id="email" name="email" class="form-control" placeholder="Enter email">
+											</div>
+										</div>
+										<!--Grid column-->
+
+									</div>
+									<!--Grid row-->
+
+									<!--Grid row-->
+									<div class="row">
+										<div class="col-md-12">
+											<div class="md-form mb-0">
+												<label for="subject" class="">Subject</label>
+												<input type="text" id="subject" name="subject" class="form-control" placeholder="Enter subject">
+											</div>
+										</div>
+									</div>
+									<!--Grid row-->
+
+									<!--Grid row-->
+									<div class="row">
+
+										<!--Grid column-->
+										<div class="col-md-12">
+
+											<div class="md-form">
+												<label for="message">Your message</label>
+												<textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea"
+													placeholder="Enter message"></textarea>
+											</div>
+
+										</div>
+									</div>
+									<!--Grid row-->
+
+								</form>
+
+								<div class="text-center">
+									<a class="btn btn-primary" onclick="validateForm()">Send</a>
+								</div>
+								<div class="status"></div>
+							</div>
+							<!--Grid column-->
+
+							<!--Grid column-->
+							<div class="col-md-3 text-center flexCenter">
+								<ul class="list-unstyled mb-0">
+									<li><i class="fas fa-map-marker-alt fa-2x"></i>
+										<img class="uni-logo"
+											src="\images\university-of-liverpool-banner.png" />
+										<p>University of Liverpool, L69 3BX, Liverpool</p>
+									</li>
+
+									<li><i class="fas fa-phone mt-4 fa-2x"></i>
+										<p>+ 44 7 904 863 902</p>
+									</li>
+
+									<li><i class="fas fa-envelope mt-4 fa-2x"></i>
+										<p>sgjjord2@liverpool.ac.uk</p>
+									</li>
+								</ul>
+							</div>
+							<!--Grid column-->
+
+						</div>
+
+					</section>
+					<!--Section: Contact v.2-->
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+	<!-- HTML END -->
+
+
+
+	<!-- JS START -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+
+	<script type="text/javascript" src="/config.js"></script>
+	<script type="text/javascript">
+		const nav = document.querySelector('.navbar'); //grab the nav with the id of main
+		const navTop = nav.offsetTop;
+		//add padding to top of page to account for the height of the fixed navigation bar
+		function getNavHeight() {
+			document.body.style.paddingTop = nav.offsetHeight + 'px';
+		}
+		getNavHeight();
+
+
+		//BUTTON - 'View Logbook' buttons click through to the Logbbook tab
+		function logbookButton() {
+			const buttons = document.querySelectorAll('.viewLogbook');
+			const buttonsArr = Array.prototype.slice.call(buttons);
+			const navList = document.querySelectorAll(".nav-item");
+			const navItems = Array.prototype.slice.call(navList);
+
+			// console.log(buttonsArr, navItems);
+
+			buttonsArr.forEach(button => button.addEventListener('click', function (e) {
+				e.preventDefault();
+				navItems[2].firstElementChild.click();
+			}));
+		}
+		logbookButton();
+
+
+
+		const desktopLimit = 768;
+		const list = document.querySelectorAll('.nav-link');
+		const listItems = Array.prototype.slice.call(list);
+		// console.log(listItems);
+		const container = document.getElementById("thisContainer");
+		const innerContainers = Array.prototype.slice.call(container.querySelectorAll('.thisContainer__item'));
+
+
+		// NAVIGATION BAR
+		//On page load, display first container (Home page)
+		function openPage() {
+			let flag = false;
+
+			innerContainers.forEach((d) => {
+				if (!flag) { //to show first item in innerContainer, being the 'Home' div
+					// console.log("shown - "+d.classList);									//cannot be accessed again due to flag, so the remaining divs in innerContainers are given a class hideDiv
+					flag = true;
+				} else {
+					d.classList.add("hideDiv");
+					// if(d=="logbook"){
+
+					// }
+				}
+			});
+		}
+
+		function listenForClick() {
+			listItems.forEach((item) => {
+				item.addEventListener('click', displayPage)
+			});
+		}
+
+		openPage();
+		listenForClick();
+
+		//NAVIGATION BAR - display correct page on nav link click
+		let logbookFlag = false;
+
+		function displayPage(event) {
+			event.preventDefault();
+			let storeHref = event.target.getAttribute("href");
+
+			// console.log(storeHref);
+			// console.log(innerContainers);
+			innerContainers.forEach((d) => { //hide all other divs and show div for the nav link clicked
+				// console.log("id - "+d.id+"  href= "+storeHref);
+				d.classList.add("hideDiv");
+				if (("#" + d.id) == storeHref) {
+					d.classList.remove("hideDiv");
+				}
+
+			});
+			listItems.forEach((item) => { //removes class of active on the current tab in the navigation bar
+				item.parentNode.classList.remove("active");
+				// console.log(item);
+			});
+			event.target.parentNode.classList.add("active");
+			if (!logbookFlag && (storeHref == "#logbook")) { //href="logbook"
+				document.querySelector('.navbar-container div[data-month="Jul"]')
+				.click() //Jan clicked when logbook tab is clicked, only occurs once
+				logbookFlag = true;
+			}
+			if (window.innerWidth < desktopLimit) {
+				document.querySelector(".navbar-toggler").click();
+			}
+		}
+
+
+
+
+		//album - display gallery
+		function imageTemplate(galleryItem) {
+			const template = `
+				<div class="item">
+					<img src="${galleryItem["image"]}" alt="" />
+					<div class="hover">
+						<h2>${galleryItem["information"]}</h2>
+					</div>
+				</div>
+			`;
+			return template;
+		}
+
+		function gallery() {
+			Object.keys(albumGallery).forEach(galleryItem => {
+				const template = imageTemplate(albumGallery[galleryItem]);
+				document.querySelector("#album #gallery").insertAdjacentHTML('beforeend', template);
+			});
+		}
+		gallery();
+
+		function galleryXPosition() {
+			const image = document.querySelector('#album .item.active img');
+			const cross = document.createElement('span');
+
+			image.after(cross);
+			cross.classList.add('cross');
+
+			const crossTop = image.offsetTop - (cross.offsetHeight / 2);
+			const crossLeft = (image.offsetLeft - (cross.offsetWidth / 2)) + image.width;
+
+			cross.setAttribute("style", "top:" + crossTop + "px; left:" + crossLeft + "px;");
+			cross.innerHTML = "+";
+		}
+
+		function galleryItemShow(e) {
+
+			// checker to see if item or img is clicked
+			if (e.composedPath()[0].classList.contains('active')) { //if img has class active
+				e.composedPath()[0].classList.remove('active');
+				console.log(e.composedPath()[0].removeChild(e.composedPath()[0].childNodes[2]));
+				document.querySelector('body').style.overflow = "auto";
+				// console.log(e.target);
+			} else {
+				if (e.composedPath()[1].classList.contains('active')) { //if item has class active
+					e.composedPath()[1].classList.remove('active');
+					e.composedPath()[1].removeChild(e.composedPath()[1].childNodes[2]);
+					document.querySelector('body').style.overflow = "auto";
+					return;
+				}
+
+				e.composedPath()[1].classList.add('active'); //add class active to item
+				galleryXPosition();
+				document.querySelector('body').style.overflow = "hidden";
+			}
+		}
+
+		function galleryItem() {
+			const items = document.querySelectorAll('#album .item');
+			const itemsArr = Array.prototype.slice.call(items);
+
+			itemsArr.forEach(item => {
+				item.addEventListener('click', galleryItemShow)
+			});
+		}
+
+		galleryItem();
+
+
+		// LOGBOOK - DISPLAY WEEKS FOR EACH MONTH
+		function createCardElement(eachWeek, monthId, key) {
+			const template = `
+				<div class="col-md-4">
+					<div class="card mb-5 shadow-sm" data-month="${monthId}" data-week="${key}">
+						<div class="card-title"><h3>${eachWeek["title"]}</h3></div>
+						<div class="card-title text-muted"><h3>${eachWeek["date"]}</h3></div>
+						<div class="card-body">
+							<p class="card-text">${eachWeek["information"]}</p>
+							
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<div class="button btn btn-sm btn-outline-secondary">Find Out More</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			`;
+			return template;
+		}
+
+		function createImage(image) {
+			return '<img src="' + image + '" />';
+		}
+
+		function returnCardTemplate(eachWeek, monthId, key) {
+			let card = createCardElement(eachWeek, monthId, key); //creates div with classname card
+			// console.log(eachWeek);
+
+			// if (arr.image && arr.image !== '') {
+			// 	card.innerHTML += createImage(arr.image);
+			// }
+
+			return card;
+		}
+
+		function showWeekModal(e) {
+			$('#weeksModal').modal('show');
+		}
+
+		function addModalPadding() {
+			const modal = document.querySelector(".modal");
+
+			// modal.addEventListener('change', () => {
+			// 	console.log('test');
+
+			// 	if(document.querySelector('body').classList.contains('modal-open')){
+
+			// 	// .setAttribute('style',"padding-right=0!important");
+			// 	}
+
+			// });
+		}
+
+		function returnAccordionTemplate(dayNo) {
+			const template = `
+				<div class="accordion" id="accordionExample${dayNo}">
+				</div>
+			`;
+			return template;
+		}
+
+		function returnAccordionCardTemplate(days, dayNo, accordionNo) {
+			const template = `
+				<div class="card">
+					<div class="card-header">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse${dayNo}"
+							aria-expanded="false" aria-controls="collapseOne">
+								${days[dayNo]["title"]}
+								<i class="arrow" />
+							</button>
+						</h5>
+					</div>
+
+					<div id="collapse${dayNo}" class="collapse" aria-labelledby="heading${dayNo}" data-parent="#accordionExample${accordionNo}">
+						<div class="card-body">
+							${days[dayNo]["information"]}
+						</div>
+					</div>
+				</div>
+			`;
+			return template;
+		}
+
+		function emptyModalAccordionContent(modal) {
+			modal.querySelector('.dropDown').innerHTML = ''; //clear modal accordions
+		}
+
+		function createModalAccordion(modal, obj) {
+			const days = obj.days;
+
+			emptyModalAccordionContent(modal);
+
+			let flag = false;
+			let accordionNo = 0;
+			Object.keys(days).forEach(day => {
+				if (!flag) {
+					accordionNo = day;
+					const templateAccordion = returnAccordionTemplate(day);
+					document.querySelector(".dropDown").insertAdjacentHTML('beforeend', templateAccordion);
+					// console.log("flag = "+flag);
+					flag = true;
+				}
+				// console.log(day);
+				const templateAccordionCard = returnAccordionCardTemplate(days, day, accordionNo);
+				document.querySelector(".accordion").insertAdjacentHTML('beforeend', templateAccordionCard);
+			});
+
+			return ``;
+		}
+
+		function createModalContent(modal, event) {
+			var weekCard = event.currentTarget;
+			var month = weekCard.getAttribute('data-month');
+			var weekIndex = parseFloat(weekCard.getAttribute('data-week'));
+			var weekObj = monthsArr[month].week[weekIndex];
+
+			// Setting modal image
+			modal.querySelector('.modal-image').setAttribute('src', weekObj.image);
+
+			// Setting modal title
+			modal.querySelector('.modal-title').textContent = weekObj.title + " - " + weekObj.date;
+
+			// Setting modal information
+			modal.querySelector('.modal-body').textContent = weekObj.information;
+
+			// Setting accordion content
+			modal.querySelector('.modal-body').insertAdjacentHTML('afterbegin', createModalAccordion(modal, weekObj));
+
+			addModalPadding();
+
+		}
+
+		function emptyModalContent(modal) {
+			modal.querySelector('.modal-body').innerHTML = '';
+		}
+
+		function createCoreModal() {
+			const template = `
+				<div class="modal fade" id="weeksModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+				aria-hidden="true">
+
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-image-container">
+								<img class="modal-image" src=" alt="" />
+							</div>
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle"></h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">								
+							</div>
+							<div class="dropDown">
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			`;
+			return template;
+		}
+
+		function createWeeksModal(e) {
+			document.querySelector(".cardsContainer").insertAdjacentHTML('beforeend', createCoreModal());
+		}
+
+		function setWeekCardEvents(element) {
+			element.addEventListener('click', (e) => {
+				var modal = document.getElementById('weeksModal');
+				var modalContent;
+
+				if (!modal) {
+					createWeeksModal(e);
+					modal = document.getElementById('weeksModal');
+				}
+
+				emptyModalContent(modal);
+				createModalContent(modal, e);
+				showWeekModal(e);
+			});
+		}
+
+		function loopThroughDates(monthArray, monthId) {
+			const weekArr = monthArray["week"];
+			const cardContainer = document.querySelector(".cardsContainer");
+
+			Object.keys(weekArr).forEach(key => {
+				const template = returnCardTemplate(weekArr[key], monthId, key);
+
+				cardContainer.insertAdjacentHTML('beforeend', template);
+
+				weekCard = cardContainer.querySelector(`.card[data-week="${key}"]`);
+
+				setWeekCardEvents(weekCard);
+			});
+		}
+
+		function setMonthData(e) {
+			event.preventDefault();
+
+			const monthId = e.currentTarget.getAttribute('data-month'); //gets value of data-month attribute
+			const monthArray = monthsArr[monthId]; //gets elements containing all weeks, for that month (in config.js file)
+
+			monthsNavArr.forEach(month => { //removes class of selected for each month in the months navbar
+				if (month.classList.contains('selected')) {
+					month.classList.remove('selected');
+				}
+			});
+			e.currentTarget.classList.add('selected');
+
+			document.querySelector(".cardsContainer").innerHTML = '';
+
+			loopThroughDates(monthArray,
+			monthId); //calls method, passing it the monthArray containing all days within the month clicked
+		}
+
+		const monthsNav = document.getElementsByClassName("navbar-container");
+		const monthsNavArr = Array.prototype.slice.call(container.querySelectorAll('.navbar-month'));
+
+		function init() {
+			monthsNavArr.forEach(function setMonthTabEvent(item) {
+				item.addEventListener('click',
+				setMonthData); //for each item in listItems, listen for a click event, then call setMonthData method
+			});
+		}
+
+		//Run init function
+		init();
+	</script>
+
+	<!-- Contact form -->
+	<script>
+		function validateForm() {
+			var name = document.getElementById('name').value;
+			if (name == "") {
+				document.getElementById('status').innerHTML = "Name cannot be empty";
+				return false;
+			}
+			var email = document.getElementById('email').value;
+			if (email == "") {
+				document.getElementById('status').innerHTML = "Email cannot be empty";
+				return false;
+			} else {
+				var re =
+					/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+				if (!re.test(email)) {
+					document.getElementById('status').innerHTML = "Email format invalid";
+					return false;
+				}
+			}
+			var subject = document.getElementById('subject').value;
+			if (subject == "") {
+				document.getElementById('status').innerHTML = "Subject cannot be empty";
+				return false;
+			}
+			var message = document.getElementById('message').value;
+			if (message == "") {
+				document.getElementById('status').innerHTML = "Message cannot be empty";
+				return false;
+			}
+			document.getElementById('status').innerHTML = "Sending...";
+			document.getElementById('contact-form').submit();
+
+		}
+	</script>
+
+	<!-- JS END -->
+
+
+
+
+</body>
+
+</html>

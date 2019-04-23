@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<!-- saved from url=(0084)file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Jeff's Log Book</title>
+	
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1,
+	user-scalable=no, width=device-width">
+	<meta name="author" content="Jeffrey Jordan">
+	<meta name="description" content="Logbook">
+	<meta name="copyright" content="Jeffrey Jordan 2019">
+	<meta name="date" content="2019-02-15" scheme="YYYY-MM-DD">
+
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="./Jeff&#39;s Log Book_files/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+<body class="modal-open" style="padding-top: 56px; padding-right: 17px;">
+
+	<!-- CUSTOM CSS START -->
+	<style type="text/css">
+
+	#pageContainer .navbar .navbar-brand strong {
+		font-size: 1.5rem;
+	}
+
+	#tabs {
+		width: auto;
+		margin: 0 auto;
+		background-color: #f2f2f2;
+	}
+
+	.tabs__item {
+		height:auto;
+		width: 100%;
+		text-align: left;
+		cursor: pointer;
+	}
+	#tabs .tabs__item h1 {
+		padding-left: 3rem;
+	}
+
+	/* NAVIGATION BAR STYLES */
+	.navbar-nav.ml-auto { margin-right:10rem; }
+	.nav-item { position: relative; }
+	.navbar-dark .navbar-nav .nav-link:before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		bottom: 0;
+		left: 0;
+		background-color: #fff;
+		visibility: hidden;
+		-webkit-transform: scaleX(0);
+		transform: scaleX(0);
+		-webkit-transition: all 0.3s
+		ease-in-out 0s;
+		transition: all 0.3s ease-in-out 0s;
+	}
+	.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover:before {
+		visibility: visible;
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+	}
+	.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+		position: relative;
+		text-decoration: none;
+	}
+	/* GENERAL PAGE STYLES */
+	/* Div Container Styling (Show & Hide), fade */
+	#thisContainer > div {
+		background-color: #F1F5F8;
+		display: none;
+		opacity: 0;
+	}
+	#thisContainer > div:not(.hideDiv) {
+		display: block;
+		opacity: 1;
+		animation: fade 0.5s;
+	}
+
+	@keyframes fade {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+
+	/* HOME PAGE STYLES */
+	#home .jumbotron { 
+	    height: -webkit-fill-available;
+    	display: flex;
+    	align-items: center;
+    	padding: 0;
+    	margin-bottom: 0;
+    }
+
+	/* Months Navbar Styles*/
+	.navbar-container {
+		position: relative;
+		display: flex;
+		overflow: auto;
+	}
+
+	@media (min-width: 768px) {
+		.navbar-container {
+			justify-content: center;
+		}
+	}
+
+	.navbar-month {
+		padding-right:20px;
+		position: relative;
+	}
+
+	.navbar-month:not(:last-child)::after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 8px;
+		right: 0;
+		top: 55px;
+		width: 100%;
+		height: 2px;
+		border-top: 1px solid black;
+		z-index: 1;
+	}
+
+	.navbar-month:last-child {
+		padding-right: 0;
+	}
+
+	.navbar-month__title {
+		position: relative;
+	}
+
+	.navbar-month__circle {
+		height: 30px;
+		width: 30px;
+		border-radius: 50%;
+		position: relative;
+		margin: 0 auto;
+		background-color: #32689B;
+		z-index: 2;
+	}
+
+	.navbar-month__circle:hover {
+		/*box-shadow: 0 4px 4px rgba(0, 0, 0, 0.28);*/
+		cursor: pointer;
+	}
+
+	.navbar-month__circle--inner {
+		position: absolute;
+		height: 80%;
+		width: 80%;
+		top: 10%;
+		left: 10%;
+		border-radius: 50%;
+		margin: 0 auto;
+		background-color: #fff;
+	}
+
+
+	/* Logbook - Month Card Styles*/
+	.container.cardsContainer { 
+		max-width: 90%;
+	}
+	.cardsContainer { 
+		margin-top: 3rem; 
+		display: flex;
+    	flex-wrap: wrap;
+    	justify-content: center;
+    }
+
+    .cardsContainer .card { 
+    	animation: fade 0.5s;
+    }
+
+    .cardsContainer .card:hover { 
+    	cursor: pointer;
+    }
+
+    .cardsContainer .card .card-title { 
+    	padding: 1.25em 1.25em 0 1.25em;
+    	margin-bottom: 0;
+    }
+
+
+
+</style>
+<!-- CUSTOM CSS END -->
+
+
+
+
+
+
+
+<!-- HTML START -->
+<div id="pageContainer">
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="padding-right: 33px;">
+		<a class="navbar-brand" href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#">
+			<img style="max-width:30px; max-height: 30px; margin-top: -6px; margin-right: 8px;" src="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/images/jjLogo.png">
+			Jeffrey Jordan
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#home">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#about">About</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#logbook">Logbook</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<div id="thisContainer">
+		<!-- HOME PAGE -->
+		<div id="home" class="thisContainer__item hideDiv">
+			<section class="jumbotron text-center">
+				<div class="container">
+					<img src="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/images/ShopDirectGroupLogo.png" class="img-fluid mx-auto" style="max-height: 50px; max-width: 113px; margin-bottom: .3em">
+					<h1 class="jumbotron-heading">Jeffrey Jordan</h1>
+					<h2 class="jumbotron-heading">Frontend Web Developer</h2>
+					<p class="lead text-muted">A summary of my internship over the last 10 months working at Shop Direct.</p>
+					<p>
+						<a href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#" class="btn btn-primary my-2">View Logbook</a>
+						<a href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#" class="btn btn-secondary my-2">Download Logbook</a>
+						<!-- <a href="#" class="btn btn-secondary my-2">Contacts</a> -->
+					</p>
+				</div>
+			</section>
+		</div>
+		<!-- ABOUT PAGE -->
+		<div id="about" class="thisContainer__item hideDiv">
+			<section class="jumbotron text-center">
+				<div class="container">
+					<h1 class="jumbotron-heading">About</h1>
+					<p class="lead text-muted">A summary of my experience over the last 10 months working at Shop Direct.</p>
+					<p>
+						<a href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#" class="btn btn-primary my-2">View Logbook</a>
+						<a href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#" class="btn btn-secondary my-2">Download Logbook</a>
+						<!-- <a href="#" class="btn btn-secondary my-2">Contacts</a> -->
+					</p>
+				</div>
+			</section>
+		</div>
+		<!-- LOGBOOK PAGE -->
+		<div id="logbook" class="thisContainer__item">
+			<section class="jumbotron text-center">
+				<div class="container">
+					<h1 class="jumbotron-heading">Logbook</h1>
+					<p class="lead text-muted">A summary of my experience over the last 10 months working at Shop Direct.</p>
+					<p>
+						<a href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#" class="btn btn-primary my-2">Download Logbook</a>
+						<!-- <a href="#" class="btn btn-secondary my-2">Contacts</a> -->
+					</p>
+				</div>
+			</section>
+			<div class="navbar-container">
+
+				<div class="navbar-month" data-month="Jan">
+					<div class="navbar-month__title">
+						<h3>
+							Jan
+						</h3>
+					</div>
+
+					<div class="navbar-month__circle">
+						<div class="navbar-month__circle--inner"></div>
+					</div>
+				</div>
+
+				<div class="navbar-month" data-month="Feb">
+					<div class="navbar-month__title">
+						<h3>
+							Feb
+						</h3>
+					</div>
+
+					<div class="navbar-month__circle">
+						<div class="navbar-month__circle--inner"></div>
+					</div>
+				</div>
+
+				<div class="navbar-month" data-month="Mar">
+					<div class="navbar-month__title">
+						<h3>
+							Mar
+						</h3>
+					</div>
+
+					<div class="navbar-month__circle">
+						<div class="navbar-month__circle--inner"></div>
+					</div>
+				</div>
+
+				<div class="navbar-month" data-month="Apr">
+					<div class="navbar-month__title">
+						<h3>
+							Apr
+						</h3>
+					</div>
+
+					<div class="navbar-month__circle">
+						<div class="navbar-month__circle--inner"></div>
+					</div>
+				</div>
+
+				<div class="navbar-month">
+					<div class="navbar-month__title">
+						<h3>
+							May
+						</h3>
+					</div>
+
+					<div class="navbar-month__circle">
+						<div class="navbar-month__circle--inner"></div>
+					</div>
+				</div>
+
+				<div class="navbar-month">
+					<div class="navbar-month__title">
+						<h3>
+							Jun
+						</h3>
+					</div>
+
+					<div class="navbar-month__circle">
+						<div class="navbar-month__circle--inner"></div>
+					</div>
+				</div>
+
+				<div class="navbar-month">
+					<div class="navbar-month__title">
+						<h3>
+							July
+						</h3>
+					</div>
+
+					<div class="navbar-month__circle">
+						<div class="navbar-month__circle--inner"></div>
+					</div>
+				</div>
+
+				<div class="navbar-month">
+					<div class="navbar-month__title">
+						<h3>
+							Aug
+						</h3>
+					</div>
+
+					<div class="navbar-month__circle">
+						<div class="navbar-month__circle--inner"></div>
+					</div>
+				</div>
+
+				<div class="navbar-month">
+					<div class="navbar-month__title">
+						<h3>
+							Sept
+						</h3>
+					</div>
+
+					<div class="navbar-month__circle">
+						<div class="navbar-month__circle--inner"></div>
+					</div>
+				</div>
+
+				<div class="navbar-month">
+					<div class="navbar-month__title">
+						<h3>
+							Oct
+						</h3>
+					</div>
+
+					<div class="navbar-month__circle">
+						<div class="navbar-month__circle--inner"></div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="container cardsContainer">
+				<div class="col-md-3">
+					<div class="card mb-5 shadow-sm data-month=" "="" data-week="">
+
+						<svg class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail">
+							<title>Week 1 - Jan</title>
+ 							<rect width="100%" height="100%" fill="#55595c"></rect>
+							</svg><div class="card-title"><h3>Week 1 - Jan</h3></div>									
+ 						
+						<div class="card-body">
+							<p class="card-text">Jan1 This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<button type="button" class="btn btn-sm btn-outline-secondary">Find Out More</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class="col-md-3">
+					<div class="card mb-5 shadow-sm data-month=" "="" data-week="">
+
+						<svg class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail">
+							<title>Week 2 - Jan</title>
+ 							<rect width="100%" height="100%" fill="#55595c"></rect>
+							</svg><div class="card-title"><h3>Week 2 - Jan</h3></div>									
+ 						
+						<div class="card-body">
+							<p class="card-text">Jan2 This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longerJan2 This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<button type="button" class="btn btn-sm btn-outline-secondary">Find Out More</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class="col-md-3">
+					<div class="card mb-5 shadow-sm data-month=" "="" data-week="">
+
+						<svg class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail">
+							<title>Week 3 - Jan</title>
+ 							<rect width="100%" height="100%" fill="#55595c"></rect>
+							</svg><div class="card-title"><h3>Week 3 - Jan</h3></div>									
+ 						
+						<div class="card-body">
+							<p class="card-text">Jan3 This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<button type="button" class="btn btn-sm btn-outline-secondary">Find Out More</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class="col-md-3">
+					<div class="card mb-5 shadow-sm data-month=" "="" data-week="">
+
+						<svg class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail">
+							<title>Week 4 - Jan</title>
+ 							<rect width="100%" height="100%" fill="#55595c"></rect>
+							</svg><div class="card-title"><h3>Week 4 - Jan</h3></div>									
+ 						
+						<div class="card-body">
+							<p class="card-text">Jan4 This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<button type="button" class="btn btn-sm btn-outline-secondary">Find Out More</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal -->
+			<div class="modal fade show" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-modal="true" style="padding-right: 17px; display: block;">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">×</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+			<!-- CONTACT PAGE -->
+			<div id="contact" class="thisContainer__item hideDiv">
+				<section class="jumbotron text-center">
+					<div class="container">
+						<h1 class="jumbotron-heading">Contact</h1>
+						<p class="lead text-muted">A summary of my experience over the last 10 months working at Shop Direct.</p>
+						<p>
+							<a href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#" class="btn btn-primary my-2">View Logbook</a>
+							<a href="file:///C:/Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/logbook.html#" class="btn btn-secondary my-2">Download Logbook</a>
+							<!-- <a href="#" class="btn btn-secondary my-2">Contacts</a> -->
+						</p>
+					</div>
+				</section>
+			</div>
+		</div>
+
+	</div>
+	<!-- HTML END -->
+
+
+
+	<!-- JS START -->
+	<script src="./Jeff&#39;s Log Book_files/jquery-3.3.1.slim.min.js.download" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="./Jeff&#39;s Log Book_files/popper.min.js.download" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="./Jeff&#39;s Log Book_files/bootstrap.min.js.download" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="file:///C://Users/emar694/OneDrive%20-%20Shop%20Direct%20Group/Logs/Site/config.js"></script>
+	<script type="text/javascript">
+
+		const nav = document.querySelector('.navbar');    //grab the nav with the id of main
+		const navTop = nav.offsetTop;
+		//add padding to top of page to account for the height of the fixed navigation bar
+		function getNavHeight(){
+			document.body.style.paddingTop = nav.offsetHeight + 'px';
+		}
+		getNavHeight();
+
+		
+
+		const desktopLimit = 768;
+		const list = document.querySelectorAll('.nav-link');
+		const listItems = Array.prototype.slice.call(list);
+		// console.log(listItems);
+		const container = document.getElementById("thisContainer");
+		const innerContainers = Array.prototype.slice.call(container.querySelectorAll('.thisContainer__item'));
+
+		//On page load, display first container (Home)
+		function openPage(){
+			let flag = false;
+
+			innerContainers.forEach((d)=> {
+				if(!flag){																	//to show first item in innerContainer, being the 'Home' div
+					// console.log("shown - "+d.classList);									//cannot be accessed again due to flag, so the remaining divs in innerContainers are given a class hideDiv
+				flag=true;
+			}
+			else{
+				d.classList.add("hideDiv");
+				// if(d=="logbook"){
+					
+				// }
+			}
+		});
+		}
+
+		function listenForClick(){
+			listItems.forEach((item) => {
+				item.addEventListener('click', displayPage)
+			});
+		}
+
+		openPage();
+		listenForClick();
+		//display correct page on nav link click
+		function displayPage(event){
+			event.preventDefault();
+			let storeHref = event.target.getAttribute("href");
+			// console.log(storeHref);
+			// console.log(innerContainers);
+			innerContainers.forEach((d)=> {													//hide all other divs and show div for the nav link clicked
+				// console.log("id - "+d.id+"  href= "+storeHref);
+				d.classList.add("hideDiv");
+				if(("#"+d.id) == storeHref){
+					d.classList.remove("hideDiv");
+				}
+
+			});
+			listItems.forEach((item) =>{													//removes class of active on the current tab in the navigation bar
+				item.parentNode.classList.remove("active");
+				// console.log(item);
+			});
+			event.target.parentNode.classList.add("active");
+			if(window.innerWidth < desktopLimit){
+				document.querySelector(".navbar-toggler").click();
+			}
+		}
+
+
+
+
+
+
+
+
+		// LOGBOOK - DISPLAY WEEKS FOR EACH MONTH
+		function createCardElement(eachWeek) {
+			const template = `
+				<div class="col-md-3">
+					<div class="card mb-5 shadow-sm data-month="" data-week="">
+
+						<svg class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail">
+							<title>${eachWeek["title"]}</title>
+ 							<rect width="100%" height="100%" fill="#55595c"/>
+							<div class="card-title"><h3>${eachWeek["title"]}</h3></div>									
+ 						</svg>
+						<div class="card-body">
+							<p class="card-text">${eachWeek["information"]}</p>
+							
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<button type="button" class="btn btn-sm btn-outline-secondary">Find Out More</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			`;
+			return template;
+		}
+
+		function createImage(image) {
+			return '<img src="' + image + '" />';
+		}
+
+		function returnCardTemplate(eachWeek) {
+			let card = createCardElement(eachWeek);												//creates div with classname card
+			// console.log(eachWeek);
+
+			// if (arr.image && arr.image !== '') {
+			// 	card.innerHTML += createImage(arr.image);
+			// }
+
+			return card;
+		}
+
+		function loopThroughDates(monthArray) {
+			const weekArr = monthArray["week"];
+
+			Object.keys(weekArr).forEach(key => {
+				const template = returnCardTemplate(weekArr[key]);
+				document.querySelector(".cardsContainer").insertAdjacentHTML('beforeend', template);
+				createModal(weekArr,key);										//PASS IN month(containing the weeks) & number for week
+			});
+			
+		}
+
+		function setMonthData(e) {
+			event.preventDefault();
+			const monthId = e.currentTarget.getAttribute('data-month');					//gets value of data-month attribute
+			const monthArray = monthsArr[monthId];										//gets the array element (containing all weeks/days) for the month in the monthsArr (config.js file)
+			document.querySelector(".cardsContainer").innerHTML = '';
+
+			loopThroughDates(monthArray);												//calls method, passing it the monthArray containing all days within the month clicked
+		}
+
+		const monthsNav = document.getElementsByClassName("navbar-container");
+		const monthsNavArr = Array.prototype.slice.call(container.querySelectorAll('.navbar-month'));
+
+		function init() {
+			monthsNavArr.forEach(function setMonthTabEvent(item) {
+				item.addEventListener('click', setMonthData);							//for each item in listItems, listen for a click event, then call setMonthData method
+			});
+		}
+
+		//Run init function
+		init();
+
+
+
+
+
+
+		// LOGBOOK - DISPLAY MODAL FOR EACH 
+		function createModal(weekArr,week){
+			const cardsArr = Array.prototype.slice.call(document.querySelectorAll('.cardsContainer .card'));
+			
+			cardsArr.forEach((item) => {
+				item.addEventListener('click', showModal)						//for each item in cardsArr, listen for a click event, then call showModal method
+			});
+			
+		}
+
+		function showModal(e){
+			console.log(e);
+			console.log(e.composedPath());
+
+
+			//Find the week that has been selected
+			
+
+			
+			const modalTest = document.getElementById("exampleModalCenter");
+			// console.log(modalTest, $(modalTest));
+			$(modalTest).modal('show');
+		}
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+
+	<!-- JS END -->
+
+
+
+
+
+<div class="modal-backdrop fade show"></div></body></html>
