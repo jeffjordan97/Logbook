@@ -1,116 +1,116 @@
 // LOGS
 window.albumGallery = {
-	1:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/avenue-hq.jpg',
-		information: 'Trip to Avenue HQ'
-	},
-	2:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/linkedIn.png',
-		information: 'LinkedIn Post from Shop direct'
-	},
-	3:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/balcony-brief.jpg',
-		information: 'Balcony Brief'
-	},
-	4:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/rw-5.jpg',
-		information: 'Retail Week Event'
-	},
-	5:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/food-3.jpg',
-		information: 'Treats & Celebrations'
-	},
-	6:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/black-friday.jpg',
-		information: 'Black Friday'
-	},
-	7:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/rw-2.jpg',
-		information: 'Retail Week Event'
-	},
-	8:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/rw-3.jpg',
-		information: 'Retail Week Event'
-	},
-	9:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/rw-4.jpg',
-		information: 'Retail Week Event'
-	},
-	10:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/rw-1.jpg',
-		information: 'Retail Week Event'
-	},
-	11:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/ux-lab.jpeg',
-		information: 'UX Lab Study'
-	},
-	12:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/mike-bday-1.jpg',
-		information: 'Celebration of Birthdays'
-	},
-	13:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/mike-bday-2.jpg',
-		information: 'Celebration of Birthdays'
-	},
-	14:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/distribution-1.jpg',
-		information: 'Visit to Distribution Centre'
-	},
-	15:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/distribution-2.jpg',
-		information: 'Visit to Distribution Centre'
-	},
-	16:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/distribution-3.jpg',
-		information: 'Visit to Distribution Centre'
-	},
-	17:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/distribution-4.jpg',
-		information: 'Visit to Distribution Centre'
-	},
-	18:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/distribution-5.jpg',
-		information: 'Visit to Distribution Centre'
-	},
-	19:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/distribution-6.jpg',
-		information: 'Visit to Distribution Centre'
-	},
-	20:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/distribution-7.jpg',
-		information: 'Visit to Distribution Centre'
-	},
-	21:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/food-1.jpg',
-		information: 'Treats & Celebrations'
-	},
-	22:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/food-2.jpg',
-		information: 'Treats & Celebrations'
-	},
-	23:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/food-4.jpg',
-		information: 'Treats & Celebrations'
-	},
-	24:{
-		image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/Album/food-5.jpg',
-		information: 'Treats & Celebrations'
-	}	
+    1: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/avenue-hq.jpg',
+        information: 'Trip to Avenue HQ'
+    },
+    2: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/linkedIn.png',
+        information: 'LinkedIn Post from Shop direct'
+    },
+    3: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/balcony-brief.jpg',
+        information: 'Balcony Brief'
+    },
+    4: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-5.jpg',
+        information: 'Retail Week Event'
+    },
+    5: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-3.jpg',
+        information: 'Treats & Celebrations'
+    },
+    6: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/black-friday.jpg',
+        information: 'Black Friday'
+    },
+    7: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-2.jpg',
+        information: 'Retail Week Event'
+    },
+    8: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-3.jpg',
+        information: 'Retail Week Event'
+    },
+    9: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-4.jpg',
+        information: 'Retail Week Event'
+    },
+    10: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/rw-1.jpg',
+        information: 'Retail Week Event'
+    },
+    11: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/ux-lab.jpeg',
+        information: 'UX Lab Study'
+    },
+    12: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/mike-bday-1.jpg',
+        information: 'Celebration of Birthdays'
+    },
+    13: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/mike-bday-2.jpg',
+        information: 'Celebration of Birthdays'
+    },
+    14: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-1.jpg',
+        information: 'Visit to Distribution Centre'
+    },
+    15: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-2.jpg',
+        information: 'Visit to Distribution Centre'
+    },
+    16: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-3.jpg',
+        information: 'Visit to Distribution Centre'
+    },
+    17: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-4.jpg',
+        information: 'Visit to Distribution Centre'
+    },
+    18: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-5.jpg',
+        information: 'Visit to Distribution Centre'
+    },
+    19: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-6.jpg',
+        information: 'Visit to Distribution Centre'
+    },
+    20: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/distribution-7.jpg',
+        information: 'Visit to Distribution Centre'
+    },
+    21: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-1.jpg',
+        information: 'Treats & Celebrations'
+    },
+    22: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-2.jpg',
+        information: 'Treats & Celebrations'
+    },
+    23: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-4.jpg',
+        information: 'Treats & Celebrations'
+    },
+    24: {
+        image: 'https://jeffjordan97.github.io/Logbook/images/Album/food-5.jpg',
+        information: 'Treats & Celebrations'
+    }
 }
 
-window.monthsArr = {		//Global variable - created from the window so declared at a global scope, meaning any JS code will have access to this variable
-	Jul: { 
-		week:{
-			1:{
-				title:'Week 1',
-				date:'02/07/18 - 06/07/18',
-				information:`Introductory week, getting to know the team in which I would be working in for the next few months, 
+window.monthsArr = { //Global variable - created from the window so declared at a global scope, meaning any JS code will have access to this variable
+    Jul: {
+        week: {
+            1: {
+                title: 'Week 1',
+                date: '02/07/18 - 06/07/18',
+                information: `Introductory week, getting to know the team in which I would be working in for the next few months, 
 				understanding the systems they use, with an introduction to the processes involved with BAU (Business As Usual) updates.`,
-				image:'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/020718-out.jpg',
-				days: {
-					1:{
-						title:`Day 1 - 2<sup>nd</sup> July 2018`,
-						information:`
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/020718-out.jpg',
+                days: {
+                    1: {
+                        title: `Day 1 - 2<sup>nd</sup> July 2018`,
+                        information: `
 						<strong>Morning</strong>: <br /> 
 						<strong>9am</strong>: Met with Lucy Rogers, the current intern on the content team at Shop Direct. She gave me a brief 
 						tour around the building, and we sorted out my pass to provide access in/out of the building.<br />
@@ -132,10 +132,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Informative day, packed with new information about Very and the way in which they operate. No inductions occurred on the first day, which allowed me to spend 
 						more time getting to know the team, which I preferred. I also enjoyed having lunch with the new interns, getting to know them and discussing the teams they are all working in.
 						`
-					},
-					2: {
-						title: 'Day 2 - 3<sup>rd</sup> July 2018',
-						information: `
+                    },
+                    2: {
+                        title: 'Day 2 - 3<sup>rd</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Shadowed Lucy, working with LWI site, updating links and images on the electricals, and home and garden webpages, with assistance from Lucy.<br />
 						<strong>Afternoon</strong>:<br />
@@ -146,11 +146,11 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Again, I had lunch with the new interns, getting to know more about each of their interests. Overall, a productive day, gaining a further understanding of software in use, 
 						as well as getting to know the content team.
 						`,
-						image: ''
-					},
-					3: {
-						title: 'Day 3 - 4<sup>th</sup> July 2018',
-						information: `
+                        image: ''
+                    },
+                    3: {
+                        title: 'Day 3 - 4<sup>th</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						<strong>8.30am</strong>: Began work on updating the Very C&F Women’s curve landing page, given a slice guide (example display/layout of the page) and brief for the task. 
 						I first began swapping out image paths, to which I noticed several assets did not exactly match the slice guide, requiring that I email the creative team to updates the assets. 
@@ -166,11 +166,11 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						a problem. I also enjoyed sitting in on the meeting with Mike, as it helped me understand how workload is assigned from other departments to the content team, and how disputes 
 						can be settled if the workload is too excessive for the content team to handle in one week, as essential jobs become prioritised. 
 						`,
-						image: ''
-					},
-					4: {
-						title: 'Day 4 - 5<sup>th</sup> July 2018',
-						information: `
+                        image: ''
+                    },
+                    4: {
+                        title: 'Day 4 - 5<sup>th</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Updated logbook (Uni work) – set out structure and typed up previously written notes.<br />
 						<strong>11am</strong>: Meeting: with Jill Bouchard-Cross. Discussed supplier-funded area of the content team, specifically how they operate and communicate with threefold, 
@@ -182,11 +182,11 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Overall, spent more time getting to know the content team, to which they had arranged a welcome lunch for me joining the team. Enjoyed getting to know other members of the team that 
 						I had previously not spoken to. Also improved my understanding of how updates are managed/performed through scheduling and using the BCC.
 						`,
-						image: ''
-					},
-					5: {
-						title: 'Day 5 - 6<sup>th</sup> July 2018',
-						information: `
+                        image: ''
+                    },
+                    5: {
+                        title: 'Day 5 - 6<sup>th</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Updated the Very C&F women’s curve landing page, making changes to both HTML and CSS, due to change in layout of the page, according to the slice guide for the task. <br />
 						<strong>10am</strong>: Meeting with Stephen Gale regarding UX, Fuse and Product Ownership, discussing Shop Direct’s version of Google’s material design, Fuse. Stephen Gale is the 
@@ -199,22 +199,22 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						the mobile version brought about my first challenging task at Shop Direct. Given heavy workload towards other members of the team, this led to a slight build-up of pressure, 
 						with the goal of resolving overflowing tasks on Monday morning before updates were pushed live.
 						`,
-						image: ''
-					}
-				}
-			},
-			2: {
-				title: 'Week 2',
-				date: '09/07/18 - 13/07/18',
-				information: `As I had booked the coming friday off as a holiday, given I was off for the following week also, it was decided that my main focus would be only on smaller 
+                        image: ''
+                    }
+                }
+            },
+            2: {
+                title: 'Week 2',
+                date: '09/07/18 - 13/07/18',
+                information: `As I had booked the coming friday off as a holiday, given I was off for the following week also, it was decided that my main focus would be only on smaller 
 				BAU (business as usual) updates, specifically to Littlewoods Ireland, with the idea to start the Brand Boutique landing page. This not only helped me to further understand the processes behind BAU updates, but also allowed for additional time to work on my 
 				coding skills. A main learning focus this week was towards time management and attention to detail, as with so many small updates occurring at one time, 
 				the awareness required to reduce the possibility of error was increased drastically.`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/090718-curves.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 09<sup>th</sup> July 2018',
-						information: `
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/090718-curves.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 09<sup>th</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Updated logbook for university.<br />
 						Updated the Very and Littlewoods H&L gaming 4thway, changing the asset and link path, then pushing the update to staging. <br />
@@ -227,20 +227,20 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						producing a slice guide for updates with text copy, and the importance of communicating with other teams to manage workload. One of the current issues 
 						facing the content team is the workload of contingency tasks.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 10<sup>th</sup> July 2018',
-						information: `
+                    },
+                    2: {
+                        title: 'Day 2 - 10<sup>th</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Attended the Intern Up and Running meeting with Beth Maghazachi, discussing our current experience working at Shop Direct. During this time, 
 						we attended the balcony briefing hosted by Henry Birch, CEO of Shop Direct, providing an update on our strategy.
 						<br /><strong>Afternoon</strong>:<br />
 						Performed updates to the Littlewoods Ireland website, including the electricals, toys and child & baby zone pages, updating assets and links.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 11<sup>th</sup> July 2018',
-						information: `
+                    },
+                    3: {
+                        title: 'Day 3 - 11<sup>th</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Contacted Richard Baldwin in retrieval of missing assets for the toys and electrical zones. Then performed these updates once assets received. 
 						Also performed updates to the LWI homepage, and kids zone page. Later, I updated the weekly work updates spreadsheet, confirming that my updates 
@@ -249,76 +249,76 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Finished  image removal updates on the top navigation bar and added in new assets that had been dropped into the SVN for the toys and electricals zone pages.
 						Began working on the Very women’s brand boutique page, desktop version, adding in a slider carousel so that another primary heading image can be added.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 12<sup>th</sup> July 2018',
-						information: `
+                    },
+                    4: {
+                        title: 'Day 4 - 12<sup>th</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Read over the weekly amends for the 12/07 update, then performed the required amends to the LWI updates I had previously worked on.
 						Meeting with Beth Maghazachi to discuss my experience during my second week working for Shop Direct. <br />
 						<strong>Afternoon</strong>:<br />
 						Continued work on the Very women’s brand boutique page, working on both the desktop and mobile versions, adding a carousel and ensuring the layout remains similar, complying with Fuse.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 13<sup>th</sup> July 2018',
-						information: `
+                    },
+                    5: {
+                        title: 'Day 5 - 13<sup>th</sup> July 2018',
+                        information: `
 						Holiday
 						`,
-					}
-				}
-			},
-			3: {
-				title: 'Week 3',
-				date: '16/07/18 - 20/07/18',
-				information: `Booked Holiday`,
-				image: '',
-				days: {
-					1: {
-						title: 'Day 1 - 16<sup>th</sup> July 2018',
-						information: `
+                    }
+                }
+            },
+            3: {
+                title: 'Week 3',
+                date: '16/07/18 - 20/07/18',
+                information: `Booked Holiday`,
+                image: '',
+                days: {
+                    1: {
+                        title: 'Day 1 - 16<sup>th</sup> July 2018',
+                        information: `
 						Holiday
 						`,
-					},
-					2: {
-						title: 'Day 2 - 17<sup>th</sup> July 2018',
-						information: `
+                    },
+                    2: {
+                        title: 'Day 2 - 17<sup>th</sup> July 2018',
+                        information: `
 						Holiday
 						`,
-					},
-					3: {
-						title: 'Day 3 - 18<sup>th</sup> July 2018',
-						information: `
+                    },
+                    3: {
+                        title: 'Day 3 - 18<sup>th</sup> July 2018',
+                        information: `
 						Holiday
 						`,
-					},
-					4: {
-						title: 'Day 4 - 19<sup>th</sup> July 2018',
-						information: `
+                    },
+                    4: {
+                        title: 'Day 4 - 19<sup>th</sup> July 2018',
+                        information: `
 						Holiday
 						`,
-					},
-					5: {
-						title: 'Day 5 - 20<sup>th</sup> July 2018',
-						information: `
+                    },
+                    5: {
+                        title: 'Day 5 - 20<sup>th</sup> July 2018',
+                        information: `
 						Holiday
 						`,
-					}
-				}
-			},
-			4: {
-				title: 'Week 4',
-				date: '23/07/18 - 27/07/18',
-				information: `As well as attending the 'Away day' on friday, the main focus of this week was on improving my HTML and CSS skills, 
+                    }
+                }
+            },
+            4: {
+                title: 'Week 4',
+                date: '23/07/18 - 27/07/18',
+                information: `As well as attending the 'Away day' on friday, the main focus of this week was on improving my HTML and CSS skills, 
 				given the responsibility of building a more challenging landing page for LWI to promote the clothing and footwear Debutant landing page, 
 				built on both desktop and mobile. This page is designed for Littlewoods Ireland only, given the debutant ball is an event that occurs 
 				in Ireland at the end of July. The purpose of this page is to allow for promotion of dresses, suits, shoes, bags and accessories, 
 				providing inspiration for outfit ideas.`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/270718-avenuehq.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 23<sup>rd</sup> July 2018',
-						information: `
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/270718-avenuehq.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 23<sup>rd</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						After updating my logbook for university, I browsed through previous updates I had made across all brands, 
 						ensuring correctness of my updates on the live sites.<br />
@@ -330,10 +330,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Began working on adding in four new 4thways for all brands (12 total), concerning men’s sportswear, men’s sports 
 						clothing, women’s sportswear and women’s sports clothing for each brand. 
 						`,
-					},
-					2: {
-						title: 'Day 2 - 24<sup>th</sup> July 2018',
-						information: `
+                    },
+                    2: {
+                        title: 'Day 2 - 24<sup>th</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Continued working on 4thways across all brands concerning sportswear and sports clothing. I had difficulty understanding 
 						how the BCC stores each page for each site, and how these may be combined, however after clarification from Mike, sitting 
@@ -344,10 +344,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						as well as changing text content, links, headings and positioning of CTAs and images. This update was for both desktop 
 						and mobile.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 25<sup>th</sup> July 2018 **',
-						information: `
+                    },
+                    3: {
+                        title: 'Day 3 - 25<sup>th</sup> July 2018 **',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Updated log book, then contacted Mike Haynes regarding missing assets for the LWI Women’s brand boutique page and required 
 						overrides for the LW and Very brand boutique assets.
@@ -359,10 +359,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						After receiving the assets for the brand boutique landing page, I updated this mobile build, making changes to the CSS code to add in 
 						assets provided for the mobile site.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 26<sup>th</sup> July 2018',
-						information: `
+                    },
+                    4: {
+                        title: 'Day 4 - 26<sup>th</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Continued work on the women’s brand boutique page across all sites, working on both the desktop and mobile versions, adding new assets, 
 						formatting the positioning of each cell and ensuring the layout and theme remains similar to that used on similar pages across site, hence 
@@ -371,10 +371,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Finalised changes to the debutant landing page for desktop and mobile, updating the content schedule to account for these changes and sending the 
 						web URL across to Rebecca Healey, the marketing executive for Littlewoods Ireland.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 27<sup>th</sup> July 2018 **',
-						information: `
+                    },
+                    5: {
+                        title: 'Day 5 - 27<sup>th</sup> July 2018 **',
+                        information: `
 						<strong>Avenue HQ event - Out of office</strong>: <br />
 						<strong>Morning</strong>: <br />
 						Attended an away day at Avenue HQ in Liverpool city centre. This day involved listened to talks concerning company strategy and culture. 
@@ -389,21 +389,21 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						I found this away day to be a great way of getting to know other people around the business that I had not previously spoken to. The team-building exercises were 
 						a great way to initiate this, and the whole day was a relaxing break away from our day-to-day roles.
 						`
-					}
-				}
-			},
-			5: {
-				title: 'Week 5',
-				date: '30/07/18 - 31/07/18',
-				information: `This week involved my first time attending a Content team meeting, with key topics discussed to improve the 
+                    }
+                }
+            },
+            5: {
+                title: 'Week 5',
+                date: '30/07/18 - 31/07/18',
+                information: `This week involved my first time attending a Content team meeting, with key topics discussed to improve the 
 				ways of working within the team. Joe Parker spent time talking about site update performance, with the future goal
 				of implementing lazy loading to improve page loading time. James McLennan, one of the frontend developers, also 
 				sat in on this meeting to discuss how we can implement BEM to our HTML and CSS code to improve its readability.`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/300718-bem.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 30<sup>th</sup> July 2018',
-						information: `
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/300718-bem.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 30<sup>th</sup> July 2018',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Performed amends to projects completed the previous week for the update going live today (30/07). 
 						Involved updating many missing links, or broken links, as well as changing image ordering and the 
@@ -417,10 +417,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						banners, all managed through Trello management software. Required contacting different departments to follow up on assets, 
 						request sign off, and make aware of current progress of updates.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 31<sup>st</sup> July 2018 **',
-						information: `
+                    },
+                    2: {
+                        title: 'Day 2 - 31<sup>st</sup> July 2018 **',
+                        information: `
 						<strong>Morning</strong>: <br />
 						Performed contingency request log updates managed through Trello. 
 						1-2-1 with Mike Heath. Discussed workload, my current goals and progress, and how I look upon 
@@ -440,24 +440,24 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						spoke about threefold tagging, adding in a google analytics tag to new 4thways and landing pages so that 
 						the Threefold agency are able to track the success of content clicked on site. 
 						`,
-					}
-				}
-			}
-		}
-	},
-	Aug: {
-		week: {
-			1:{
-				title: 'Week 5',
-				date: '01/08/18 - 03/08/18',
-				information: `This week provided me with an indication of how well I'm progressing in my role at Shop Direct, discussing both my 
+                    }
+                }
+            }
+        }
+    },
+    Aug: {
+        week: {
+            1: {
+                title: 'Week 5',
+                date: '01/08/18 - 03/08/18',
+                information: `This week provided me with an indication of how well I'm progressing in my role at Shop Direct, discussing both my 
 				progression with HTML and CSS coding abilities, as well as further improvements I can make, including the implementation of the BEM
 				methodology as explained by Jay earlier in the week.`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/030818-michKeeganLP.jpg',
-				days: {
-					1: {
-						title: 'Day 3 - 01<sup>st</sup> August 2018 **',
-						information: `
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/030818-michKeeganLP.jpg',
+                days: {
+                    1: {
+                        title: 'Day 3 - 01<sup>st</sup> August 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						Worked on weekly Home & Leisure updates to Littlewoods Ireland, including –<br />
 						Home page: secondary cell image updates<br />
@@ -470,10 +470,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						of networking around the business, not only within my department but around the company as a whole. Improving your networking skills is 
 						very important in understanding and getting to know the relevant people to contact their knowledge be required in the future.
 						`,
-					},
-					2: {
-						title: 'Day 4 - 02<sup>nd</sup> August 2018',
-						information: `
+                    },
+                    2: {
+                        title: 'Day 4 - 02<sup>nd</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Finished work on the weekly Home and Leisure updates to Littlewoods Ireland.<br />
 						Began working on the Michelle Keegan landing page, across all sites, initially starting on the desktop build. This landing page is being 
@@ -481,10 +481,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						<br /><strong>Afternoon</strong><br />
 						Continued working on the Michelle Keegan landing page, desktop build.
 						`,
-					},
-					3: {
-						title: 'Day 5 - 03<sup>rd</sup> August 2018',
-						information: `
+                    },
+                    3: {
+                        title: 'Day 5 - 03<sup>rd</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Updated the kettles & toasters 4thway across Very and Littlewoods, then updated weekly web amends document to show these changes have been actioned.<br />
 						Final updates to the Michelle Keegan landing page for desktop, then began working on the mobile build.
@@ -493,22 +493,22 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Worked on Trello contingency requests, involving asset removals and changes cell-copies (sections of text) on several pages.
 						Worked on amends for Monday’s update (06/08), specifically towards the Michelle Keegan desktop landing page, where several link changes were required.
 						`,
-					}
-				}
-			},
-			2:{
-				title: 'Week 6',
-				date: '06/08/18 - 10/08/18',
-				information: `A key event this week was meeting with the CEO, Henry Birch, involving a Q&A session with other interns. 
+                    }
+                }
+            },
+            2: {
+                title: 'Week 6',
+                date: '06/08/18 - 10/08/18',
+                information: `A key event this week was meeting with the CEO, Henry Birch, involving a Q&A session with other interns. 
 				I also learned about segmentation and the process of updating segmentation assets across Very and Littlewoods, and was 
 				also able to spend an afternoon volunteering at the Belvidere family centre with several other interns, learning how 
 				they help house the homeless and the circumstances under which people end up homeless. The Belvidere family centre is 
 				one of the charities supported by Shop Direct.`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/080818-charity.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 06<sup>th</sup> August 2018',
-						information: `
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/080818-charity.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 06<sup>th</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Finished off version two amends for the desktop build of the Michelle Keegan landing page.<br />
 						Worked on Trello contingency requests, specifically 4thway removals.
@@ -516,10 +516,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Began working on home & zone updates for Littlewoods for 09/08. This included the electricals and 
 						gaming zones, involving insertion of new assets and updating of links on primary and secondary banners.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 07<sup>th</sup> August 2018',
-						information: `
+                    },
+                    2: {
+                        title: 'Day 2 - 07<sup>th</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Continued working on the Littlewoods home & zones updates for 09/08, working on the toys, child & baby, 
 						electricals and gaming zones.
@@ -531,10 +531,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						'Miss Very'. Following this, a Q&A took place, discussing the culture of Shop Direct compared to companies he'd 
 						previously worked, as well as how he’s improved his confidence speaking in large groups.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 08<sup>th</sup> August 2018 **',
-						information: `
+                    },
+                    3: {
+                        title: 'Day 3 - 08<sup>th</sup> August 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						Began working on the Clark’s Brand store landing page tab, a new tab addition, initially analysing the existing 
 						code on the page that was used to create the current tabs so I could understand how I would write the HTML code 
@@ -549,10 +549,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Began working on amends to the LW Home and zones updates. This included the homepage, electricals zone, 
 						kids zone, child & baby zone and gaming zone. I then continued work on the Clarks brandstore tab addition.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 09<sup>th</sup> August 2018 **',
-						information: `
+                    },
+                    4: {
+                        title: 'Day 4 - 09<sup>th</sup> August 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						Finished work from the weekly home & leisure updates to LW, including the home page,electricals and home & garden zones. 
 						Finished off the Clark’s brand store page for desktop and awaited sign off for this, given Luis was still making amends 
@@ -565,10 +565,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						through fault of their own. This visit helped to understand the importance of Shop Direct's contribution to their centre, and how 
 						these donations can be life changing for those being supported.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 10<sup>th</sup> August 2018',
-						information: `
+                    },
+                    5: {
+                        title: 'Day 5 - 10<sup>th</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Finished off the Men’s brand boutique page, across all brands, ensuring colour schemes matched, and positioning 
 						of cells and CTAs are correct.
@@ -576,22 +576,22 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Began working on the Women’s curves landing page update across all brands, first focusing on the desktop version for Very, then 
 						beginning the mobile version shortly after (given this update was relatively small).
 						`,
-					}
-				}
-			},
-			3: {
-				title: 'Week 7',
-				date: '13/08/18 - 17/08/18',
-				information: `One of the main tasks I was given this week was to ensure all updates were ready for sign off, 
+                    }
+                }
+            },
+            3: {
+                title: 'Week 7',
+                date: '13/08/18 - 17/08/18',
+                information: `One of the main tasks I was given this week was to ensure all updates were ready for sign off, 
 				sending the ‘website sign off’ email to the web sign off email group, involving over 100 people, to confirm the 
 				16/08 updates were live. This was the first time I had been given responsibility to send this email and push 
 				updates live, hence I was relatively nervous, however very motivated to continue progressing in both technical and 
 				business focused abilities.`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/160818-sign-off.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 13<sup>th</sup> August 2018',
-						information: `
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/160818-sign-off.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 13<sup>th</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Continued working on the Women’s curve LP for Very mobile.
 						Duplicated the Women’s curve LP update across LW and LWI for both desktop and mobile, then added to the BCC
@@ -601,10 +601,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						issue regarding slider arrows on a banner for the desktop computers page, required changing part of the JS 
 						as well as CSS.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 14<sup>th</sup> August 2018 **',
-						information: `
+                    },
+                    2: {
+                        title: 'Day 2 - 14<sup>th</sup> August 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						Confirmed 4thways were added correctly through visible checks on staging.
 						Worked on the LW H&Z updates for 16/08, including the homepage, topnav alterations, kids zone, toys zone, 
@@ -618,10 +618,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						I spend time researching online about the different functions that are used for each slider, as it would help me 
 						to understand what each line of code means and how/where it is used.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 15<sup>th</sup> August 2018',
-						information: `
+                    },
+                    3: {
+                        title: 'Day 3 - 15<sup>th</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Began work on the Men’s trainers 4thways for 27/08.
 						<br /><strong>Afternoon</strong><br />
@@ -629,10 +629,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						language, making notes as I worked through. This started through using W3Schools JavaScript 
 						tutorials.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 16<sup>th</sup> August 2018 **',
-						information: `
+                    },
+                    4: {
+                        title: 'Day 4 - 16<sup>th</sup> August 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						Performed changes to the 16/08 update for LW home and zones, based on the amends document returned 
 						the previous day, and also including 4thways for desktop computing, laptops and windows laptops.
@@ -649,10 +649,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						gifts & jewellery and beauty zone pages. Also involved updating the kids zone to add in contingency 
 						requests, involving a banner addition to the main slider carousel to promote a 40% off selected brands offer.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 17<sup>th</sup> August 2018',
-						information: `
+                    },
+                    5: {
+                        title: 'Day 5 - 17<sup>th</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Prepared H&Z update for LWI for 20/08 ready to send to other departments for amends.
 						Worked on the washing machines 4thway and Fitbit 4thway for Very and LW. Involved both desktop and 
@@ -662,22 +662,22 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Worked through JavaScript tutorials online to understand the basics of the scripting language, 
 						making notes as I worked through.
 						`,
-					}
-				}
-			},
-			4: {
-				title: 'Week 8',
-				date: '20/08/18 - 24/08/18',
-				information: `This week helped understand the importance of asking for help when necessary, as making the team aware 
+                    }
+                }
+            },
+            4: {
+                title: 'Week 8',
+                date: '20/08/18 - 24/08/18',
+                information: `This week helped understand the importance of asking for help when necessary, as making the team aware 
 				of my current progress with a task allowed them to understand whether there may be an issue with time 
 				constraints or technical ability, and how they can aid in ensuring the project is ready to go live on time. 
 				I also iplemented the BEM methodology to the Russell Hobbs brand store landing page, and was introduced 
 				to Supplier Funded team and the process of how they perform updates.`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/200818-schedule.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 20<sup>th</sup> August 2018 **',
-						information: `
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/200818-schedule.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 20<sup>th</sup> August 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						Updated the 20/08 LWI home & zone updates as they were accidentally deleted as I reverted 
 						the project. Offered help from the team to take up my amends from other projects, such as 
@@ -694,10 +694,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						be an issue, and how this can be prevented, hence several team members providing help with my 
 						projects. 
 						`,
-					},
-					2: {
-						title: 'Day 2 - 21<sup>st</sup> August 2018 **',
-						information: `
+                    },
+                    2: {
+                        title: 'Day 2 - 21<sup>st</sup> August 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						Continued work on the Russell Hobbs brand store page, desktop version. Had difficulty incorporating videos into cells. 
 						<br /><strong>Afternoon</strong><br />
@@ -712,10 +712,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						been unable to do. Luis broke down the code well so that I could clearly understand where and which classes were 
 						being called, and the JavaScript used in with this to make the video display correctly.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 22<sup>nd</sup> August 2018',
-						information: `
+                    },
+                    3: {
+                        title: 'Day 3 - 22<sup>nd</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Continued working on the Russell Hobbs mobile brand store page. Came across difficulty incorporating videos as I 
 						couldn’t display the video when the cell was clicked, however this issue was solved with help from Luis.<br />
@@ -729,10 +729,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Worked through JavaScript tutorials online to understand the basics of the scripting language, making notes 
 						as I progressed through.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 23<sup>rd</sup> August 2018 **',
-						information: `
+                    },
+                    4: {
+                        title: 'Day 4 - 23<sup>rd</sup> August 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						Introduced to Supplier Funded team and the process of how they perform updates. The Supplier Funded updates are located 
 						at the bottom of the schedule, with the inital view that there are fewer updates on a weekly basis than BAU. 
@@ -748,10 +748,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						in the schedule, the process behind performing the update was different.<br />
 						Continued with JavaScript notes for the final hour of the day.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 24<sup>th</sup> August 2018',
-						information: `
+                    },
+                    5: {
+                        title: 'Day 5 - 24<sup>th</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Worked through JavaScript tutorials online to understand the basics of the scripting language, making notes as I worked through.<br />
 						Ensured all updates for Tuesday were ready for send off. This included ensuring positioning of text on 4thways was correct, as well as 
@@ -760,13 +760,13 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Worked on the Ideal home landing page, desktop version. This was an easy task, involved following BEM procedure when writing HTML/CSS. 
 						Completed the desktop version by finish time, showing my coding skills/speed of working have increased significantly.
 						`,
-					}
-				}
-			},
-			5: {
-				title: 'Week 9',
-				date: '27/08/18 - 31/08/18',
-				information: `Meeting with Mike Heath. Discussed current progress so far, stating that my coding skills have 
+                    }
+                }
+            },
+            5: {
+                title: 'Week 9',
+                date: '27/08/18 - 31/08/18',
+                information: `Meeting with Mike Heath. Discussed current progress so far, stating that my coding skills have 
 				improved significantly since joining. Looked forward to the opportunity to work in one of the product 
 				squads for a day or two to provide an insight into the way their agile team functions.
 				This week I also understood the importance of efficiency in the dynamic environment in which our team works,
@@ -774,11 +774,11 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 				being asked to remove the page from the Littlewoods and Littlewoods Ireland sites as requested by the brand (after 
 				versions for their page had been built).
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/310818-kate-spade.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 27<sup>th</sup> August 2018 **',
-						information: `
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/310818-kate-spade.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 27<sup>th</sup> August 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						Read over uni placement handbook and completed the required forms for send off during the first 
 						2 months of placement.<br />
@@ -798,10 +798,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						progressing and learning new skills. Also excited about the opportunity to move teams and progress 
 						my learning with JS code.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 28<sup>st</sup> August 2018 **',
-						information: `
+                    },
+                    2: {
+                        title: 'Day 2 - 28<sup>st</sup> August 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						Finished off home & zone updates for 30/08. Found to be a quicker/easier process than previous, 
 						given my level of experience navigating and locating information has improved.
@@ -822,10 +822,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						to create the pages in the BCC for both desktop & mobile, a process itself that takes up time that could 
 						have been spent on other projects.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 29<sup>nd</sup> August 2018',
-						information: `
+                    },
+                    3: {
+                        title: 'Day 3 - 29<sup>nd</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Littlewoods home & zone updates for the 30/08 update to home & leisure, including updates to the 
 						child & baby zone, electricals, gaming, home & garden and toys. 
@@ -833,44 +833,44 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Worked on the Ideal Home landing page update for desktop, linked through from the Home edit landing page, to which 
 						I also had to edit to add in a cell. Then started on the mobile build.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 30<sup>rd</sup> August 2018',
-						information: `
+                    },
+                    4: {
+                        title: 'Day 4 - 30<sup>rd</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Finished off the Ideal Home landing page update for mobile, then pushed all my changes for the 30/08 update 
 						to staging ready for sign off.
 						<br /><strong>Afternoon</strong><br />
 						Continued finishing off the Ideal Home landing page for mobile.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 31<sup>th</sup> August 2018',
-						information: `
+                    },
+                    5: {
+                        title: 'Day 5 - 31<sup>th</sup> August 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Updated logbook.
 						<br /><strong>Afternoon</strong><br />
 						JavaScript training, using resources from w3Schools.
 						`,
-					}
-				}
-			}
-		}
-	},
-	Sep: {
-		week:{
-			1:{
-				title: 'Week 10',
-				date: '03/09/18 - 07/09/18',
-				information: `This week I took on the responsibility of developing the ‘Above The Line’ (ATL) landing page for LWI, aligning with the 
+                    }
+                }
+            }
+        }
+    },
+    Sep: {
+        week: {
+            1: {
+                title: 'Week 10',
+                date: '03/09/18 - 07/09/18',
+                information: `This week I took on the responsibility of developing the ‘Above The Line’ (ATL) landing page for LWI, aligning with the 
 				upcoming TV advert, hence it being essential the page is ready and signed off on time.
 				This week I also attended a meeting with Mike, Adrienne, Amy Parkinson & Karen Miah to discuss the idea of implementing 
 				a ‘performance hub’, a place to find content with all things related to sports & fitness.`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/030918-atl.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 03<sup>rd</sup> September 2018 **',
-						information: `
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/030918-atl.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 03<sup>rd</sup> September 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						This week I took on the responsibility of developing the ‘Above The Line’ (ATL) 
 						landing page for LWI, a relatively large task in terms of responsibility, given 
@@ -883,10 +883,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						<br /><strong>Afternoon</strong><br />
 						Warranty for 03/07 C&F update.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 04<sup>th</sup> September 2018 **',
-						information: `
+                    },
+                    2: {
+                        title: 'Day 2 - 04<sup>th</sup> September 2018 **',
+                        information: `
 						<strong>Morning</strong><br />
 						<strong>8.30am: </strong>Performed the Home & leisure updates for Littlewoods Home page & zone pages. I found 
 						these tasks to be straightforward in terms of the processes involved, and the amends 
@@ -904,10 +904,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Allow for promotion of events, e.g. boxing, football (women’s world cup), marathons, ‘new year new you’ campaign. <br />
 						Promote new products – reviews from athletes & customers, push certain products at different times, maintain trends.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 05<sup>th</sup> September 2018',
-						information: `
+                    },
+                    3: {
+                        title: 'Day 3 - 05<sup>th</sup> September 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Finished off home & zone updates for 06/09 for Littlewoods<br />
 						Began working on LWI ATL landing page, located on a promo link that is clicked throght from the
@@ -916,10 +916,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						<br /><strong>Afternoon</strong><br />
 						Continued working on mobile version of ATL new in LP and made a number of copy changes to the desktop version also.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 06<sup>th</sup> September 2018',
-						information: `
+                    },
+                    4: {
+                        title: 'Day 4 - 06<sup>th</sup> September 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Amends for 06/09 home & zones for LW, LWI ATL page and women’s new in LP.
 						<br /><strong>Afternoon</strong><br />
@@ -928,31 +928,31 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						guidelines for material design.<br />
 						Following this, I added the project to the BCC and followed up on missing links, including that of the ATL landing page.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 07<sup>th</sup> September 2018',
-						information: `
+                    },
+                    5: {
+                        title: 'Day 5 - 07<sup>th</sup> September 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Finished off ATL for LWI, adding in a new copy to whitespace on the page as requested.
 						<br /><strong>Afternoon</strong><br />
 						JavaScript Training, researching JQuery using google search & Stackoverflow.
 						`,
-					}
-				}
-			},
-			2:{
-				title:'Week 11',
-				date: '10/09/18 - 14/09/18',
-				information:`I attended an expo event based in London, all about IT in ecommerce and retail. This event, 
+                    }
+                }
+            },
+            2: {
+                title: 'Week 11',
+                date: '10/09/18 - 14/09/18',
+                information: `I attended an expo event based in London, all about IT in ecommerce and retail. This event, 
 				named Retail week, allowed me and several other interns and apprentices to attend talks and seminars to 
 				learn more about how the use of technology has and will continue to drastically change consumer habits 
 				when buying goods online.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/100918-rw.jpg',
-				days:{
-					1:{
-						title: 'Day 1 - 10<sup>th</sup> September 2018',
-						information: `
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/100918-rw.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 10<sup>th</sup> September 2018',
+                        information: `
 						<strong>Morning</strong><br />
 						Today I worked on the Lingerie Boutique landing page for desktop & mobile, across 
 						all brands. To ensure the go live date was met, this required chasing up on links, 
@@ -961,20 +961,20 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						<br /><strong>Afternoon</strong><br / >
 						During the afternoon I finished off building the Lingerie Boutique landing page for destop.
 						`,
-					},
-					2:{
-						title: 'Day 2 - 11<sup>th</sup> September 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 11<sup>th</sup> September 2018',
+                        information: `<strong>Morning</strong><br />
 						Today I worked on the Lingerie Boutique landing page for mobile, across 
 						all brands. I began building the page for mobile, knowing the links could be added 
 						in at a later date.
 						<br/><strong>Afternoon</strong><br/ >
 						During the afternoon I finished off building the Lingerie Boutique landing page for mobile.
 						`,
-					},
-					3: {
-						title: 'Day 3 & Day 4 - 12<sup>th</sup>/13<sup>th</sup> September 2018**',
-						information: `
+                    },
+                    3: {
+                        title: 'Day 3 & Day 4 - 12<sup>th</sup>/13<sup>th</sup> September 2018**',
+                        information: `
 						Across today and tomorrow I attended an expo event based in London, all about IT in ecommerce 
 						and retail. This event, named Retail week, allowed me and several other interns and apprentices 
 						to attend talks and seminars to learn more about how the use of technology has and will continue 
@@ -1003,10 +1003,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						retail’ talk. She discussed the benefits of the apprenticeship programme, and how focusing on talent has 
 						led to greater success within the growth of Shop Direct.
 						`,
-					},
-					4: {
-						title: 'Day 5 - 14<sup>th</sup> September 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 5 - 14<sup>th</sup> September 2018',
+                        information: `<strong>Morning</strong><br />
 						H&L sale updates for Littlewoods, including the Home & Garden and electricals zones. Also 
 						discussed with Gail Taylor whether the gaming & DVD zone would go ahead with sale banners, 
 						as the content and creative briefs were in conflict. This required further discussion with 
@@ -1021,23 +1021,23 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						I began amends for 17/09 update for LW sale, and covered Sam’s amends for Very sale updates 
 						in his absence.
 						`,
-					}
-				}
-			},
-			3: {
-				title: 'Week 12',
-				date: '17/09/18 - 21/09/18',
-				information: `I spent time speaking to Jill to clarify any confusion I was having with Threefold 
+                    }
+                }
+            },
+            3: {
+                title: 'Week 12',
+                date: '17/09/18 - 21/09/18',
+                information: `I spent time speaking to Jill to clarify any confusion I was having with Threefold 
 				processes, and how the sign off process differs from BAU updates, given my error earlier in the week 
 				where I pushed live before sending over the staging links to the Threefold agency. I also worked on 
 				20/09 site updates, involving sending out the missing links email to retail trading, and the missing 
 				briefs email to the brands team (usually handled by Sam).
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/170918-lu.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 17<sup>th</sup> September 2018',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/170918-lu.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 17<sup>th</sup> September 2018',
+                        information: `<strong>Morning</strong><br />
 						Finished off final changes to LW mid-season sale update, and took over Sam’s Very sale 
 						project given he was on holiday, finishing off final amends. Then focused on the Trello 
 						warranty board to perform final amend updates after the C&F (& mid-season sale) had been pushed live.<br />
@@ -1059,10 +1059,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						slots can become an issue, especially since the individual making changes to a pre-existing slot may be 
 						unaware of any other pages the slot has been used.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 18<sup>th</sup> September 2018 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 18<sup>th</sup> September 2018 **',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on 20/09 site updates, involving sending out the missing 
 						links email to retail trading, and the missing briefs email to the brands team 
 						(usually handled by Sam). This shows I was given further responsibility in the 
@@ -1077,10 +1077,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						- copy changes<br />
 						- additional requests from Jill
 						`,
-					},
-					3: {
-						title: 'Day 3 - 19<sup>th</sup> September 2018 ',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 19<sup>th</sup> September 2018 ',
+                        information: `<strong>Morning</strong><br />
 						Trello contingency requests, including:<br / >
 						-	Chasing up on assets to creative<br / >
 						-	Pushed staging projects live<br / >
@@ -1092,18 +1092,18 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Later, I finished off 20/09 H&L updates for LWI, including updates to the segmentation assets 
 						for toys & kids zones. Following this, I updated the Home Edit landing page for mobile, across all brands.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 20<sup>th</sup> September 2018 ',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 20<sup>th</sup> September 2018 ',
+                        information: `<strong>Morning</strong><br />
 						Updated logbook, then finished off the Home Edit landing page for mobile.
 						<br /><strong>Afternoon</strong><br / >
 						Home Edit landing page for desktop, across all brands.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 21<sup>th</sup> September 2018 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 21<sup>th</sup> September 2018 **',
+                        information: `<strong>Morning</strong><br />
 						Tavern for Lucy’s leaving breakfast as this was her final day before her returning to university.<br />
 						Brochure Support landing page to align with the Home Edit update, given the Home theme was being pushed 
 						in this week’s update. The Brochure Support landing page contained further product inspiration regarding 
@@ -1125,33 +1125,33 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						helps to figure out issues with conflicting CSS, such as why it is preferred to not use important tags as they can’t be 
 						overridden, therefore complicating code.
 						`,
-					}
-				}
-			}, 
-			4: {
-				title: 'Week 13',
-				date: '24/09/18 - 28/09/18',
-				information: `Jill asked me to pick up a task for financial services (FS), involving changes to the 
+                    }
+                }
+            },
+            4: {
+                title: 'Week 13',
+                date: '24/09/18 - 28/09/18',
+                information: `Jill asked me to pick up a task for financial services (FS), involving changes to the 
 				insurance pages on the money zone on Very and Littlewoods. This update progressed from adding in a new cell and 
 				removing the home insurance button, to building two new landing pages on desktop and mobile, displaying that 
 				home insurance is currently unavailable. The pressure to provide staging links for these builds before the 
 				end of the day was high. After my efforts towards the FS task, I was awared a Shine reward from Gareth Naser.				
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/240918-insurance.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 24<sup>th</sup> September 2018',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/240918-insurance.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 24<sup>th</sup> September 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on the Home & zone amends for Littlewoods Ireland, including 
 						women’s zone, sports zone, and the homepage, all of which on desktop & mobile.
 						<br /><strong>Afternoon</strong><br / >
 						This afternoon I began working on the full brochure support landing page for desktop, 
 						linked from the Home Edit landing page.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 25<sup>th</sup> September 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 25<sup>th</sup> September 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on the full brochure support landing page for mobile, given I 
 						had completed the desktop build.
 						<br /><strong>Afternoon</strong><br / >
@@ -1161,10 +1161,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						customer when browsing. This update also required adding in a cell to the Home Hub 
 						to link through to the exotic florals LP.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 26<sup>th</sup> September 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 26<sup>th</sup> September 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on the Littlewoods Ireland Home & leisure updates to the Home 
 						and zones, including the Home page, kids zone, toys zone, and electricals zone pages.
 						<br /><strong>Afternoon</strong><br / >
@@ -1184,10 +1184,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						page for Littlewoods on desktop, aligning with the new Catherine Tyldesley clothing range 
 						going live on Friday.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 27<sup>th</sup> September 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 27<sup>th</sup> September 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I actioned the Littlewoods Ireland Home & zone amends for home & 
 						garden zone, toys zone, kids zone, and brochure support landing page amends for 
 						Very and Littlewoods. After completing amends, I worked on the Catherine Tyldesley 
@@ -1195,10 +1195,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						<br /><strong>Afternoon</strong><br / >
 						During the afternoon I continued working on the Catherine Tyldesley landing page for mobile.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 28<sup>th</sup> September 2018 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 28<sup>th</sup> September 2018 **',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on the Littlewoods Ireland Home & zones update for 01/10, including updates 
 						to the Home page, gifts zone, women’s zone, men’s zone and sports zone pages for desktop & mobile, 
 						including updates to the top navigation imagery. 
@@ -1227,27 +1227,27 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						and Jill. I very much appreciated the kind words she had to say, and as a result Gareth chose to give me his 
 						shine points for the month as a thank you for my efforts.
 						`,
-					}
-				}
-			}
-		}
-	},
-	Oct: {
-		week:{
-			1: {
-				title: 'Week 14',
-				date: '01/10/18 - 05/10/18',
-				information: `Whilst building the Outdoor landing page for mobile on Very, I came across an issue 
+                    }
+                }
+            }
+        }
+    },
+    Oct: {
+        week: {
+            1: {
+                title: 'Week 14',
+                date: '01/10/18 - 05/10/18',
+                information: `Whilst building the Outdoor landing page for mobile on Very, I came across an issue 
 				concerning the page footer merging into the main content. As I was unable to fix this issue, I passed this to Luis 
 				who discovered it was a conflict of work with an experiment in the product squads. The issue was later resolved, 
 				but it showed to me the importance of a team willing to help each other. This week I also spent an afternoon with 
 				Lucie Farrington, the intern in the UX team, to discuss both our areas of work.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/011018-outdoor.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 01<sup>st</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/011018-outdoor.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 01<sup>st</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I completed the Catherine Tyldesley landing page amends, then the Littlewoods 
 						Ireland Home and zone amends. Following this, I worked on the Littlewoods Ireland Benefit 
 						Brows banner addition, shortly after receiving amends for this to fix the issue with only 
@@ -1262,10 +1262,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						During the afternoon, once the site updates were live, I began working on the Outdoor landing 
 						page for desktop, promoting outdoor wear for The North Face.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 02<sup>nd</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 02<sup>nd</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						Today I continued working on the Outdoor landing page for desktop, having an issue 
 						with aligning CTA buttons centrally to each cell, however this was solved relatively 
 						quickly with the use of auto margins.
@@ -1275,10 +1275,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						since the page was initially delayed going live due to unavailability of certain branded 
 						products, now back in stock.
 						`,
-					},
-					3: {
-						title: 'Day 3 - -03<sup>rd</sup> October 2018 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - -03<sup>rd</sup> October 2018 **',
+                        information: `<strong>Morning</strong><br />
 						This morning I finished off the Outdoor landing page for mobile & came across an issue with 
 						the mobile version, concerning the page footer, an issue that I am unable to fix due to 
 						restrictions in the BCC. I passed the issue to Luis who discovered it was a conflict of 
@@ -1307,19 +1307,19 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						quicker, in some cases instantly, with the route of a frontend development role also offering 
 						the same opportunity.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 04<sup>th</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 04<sup>th</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I completed the amends for the 04/10 update before pushing live.
 						<br /><strong>Afternoon</strong><br / >
 						This afternoon I began building the October Offers landing page for desktop, 
 						related to financial services.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 05<sup>th</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 05<sup>th</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I finished off the October Offers landing page for desktop and began the mobile build.
 						<br /><strong>Afternoon</strong><br / >
 						During the afternoon I came across an issue with the ‘Apply now’ CTA on the mobile build for the 
@@ -1328,24 +1328,24 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						used to change the id of a div for the CTA on click was not working, so this issued was resolved by linking 
 						through directly to the account login page via /account-login.page.
 						`,
-					}
-				}
-			},
-			2: {
-				title: 'Week 15',
-				date: '08/10/18 - 12/10/18',
-				information: `This week the Content team attended a meeting with Gareth Naser, finding out 
+                    }
+                }
+            },
+            2: {
+                title: 'Week 15',
+                date: '08/10/18 - 12/10/18',
+                information: `This week the Content team attended a meeting with Gareth Naser, finding out 
 				there would be a move to become part of the Retail department as opposed to IT. The move from 
 				IT to Retail is a positive move for the Content team, especially because this means we will be 
 				moving closer to Creative, so processes can be streamlined more efficiently. This week I 
 				also I received a confirmation letter from Matthew Wafer, confirming the end of my probationary 
 				period, therefore officially working for Shop Direct for the remainder of my internship.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/081018-probation.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 08<sup>th</sup> October 2018 **',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/081018-probation.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 08<sup>th</sup> October 2018 **',
+                        information: `<strong>Morning</strong><br />
 						This morning I finished off amends for the 08/10 update for the Outdoor landing page across 
 						all brands, for both desktop & mobile. I then began working on the Fitbit landing page for 
 						desktop, including several sliders and video content.
@@ -1364,10 +1364,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						updates on when assets will be sliced and ready. This also means the team’s senior manager will 
 						change from Gareth Naser to Shaun Brennan, the current senior manager of Creative and UX research.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 09<sup>th</sup> October 2018 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 09<sup>th</sup> October 2018 **',
+                        information: `<strong>Morning</strong><br />
 						This morning I had a one-to-one meeting with Michael Heath. He confirmed my shift in roles 
 						from the BAU team within content, to the supplier funded team in content. I believe that 
 						this would be the best opportunity for me to progress learning JS, without working with 
@@ -1383,10 +1383,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						manager of UX research, reporting to Sally-Anne Newton. We discussed the move of the content team, 
 						specifically my views on the move to retail and the physical location of where we would move to. 
 						`,
-					},
-					3: {
-						title: 'Day 3 - -10<sup>th</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - -10<sup>th</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						Meeting with new head of department given we’re changing from IT to retail, therefore working 
 						and moving closer to creative and retail brands teams. Found Shaun to be very relaxed and easy 
 						to talk to, also seeming very happy about the move & that he’ll be managing the content team 
@@ -1395,20 +1395,20 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Began building the Fitbit brand store landing page for desktop, including cells that, when clicked, 
 						change the content displayed below.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 11<sup>th</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 11<sup>th</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						Finished off the Fitbit brand store for desktop, including JQuery and JavaScript 
 						functionality that allowed for the display of selected content, based on the current 
 						cell clicked from the sub-navigation bar.
 						<br /><strong>Afternoon</strong><br / >
 						During the afternoon I began building the Fitbit brand store for mobile.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 12<sup>th</sup> October 2018 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 12<sup>th</sup> October 2018 **',
+                        information: `<strong>Morning</strong><br />
 						This morning I attended the first creative huddle with the content team and creative 
 						team. This huddle is a weekly meeting to provide updates on the current financial 
 						situation of the business, reading through the digital digest, as well as providing 
@@ -1417,24 +1417,24 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						<br /><strong>Afternoon</strong><br / >
 						This afternoon I completed the Fitbit brand store and actioned the amends.
 						`,
-					}
-				}
-			},
-			3: {
-				title: 'Week 16',
-				date: '15/10/18 - 19/10/18',
-				information: `On Monday I worked from home, spending the morning finishing off the 4thways I hadn’t started 
+                    }
+                }
+            },
+            3: {
+                title: 'Week 16',
+                date: '15/10/18 - 19/10/18',
+                information: `On Monday I worked from home, spending the morning finishing off the 4thways I hadn’t started 
 				from Friday, and I also assigned myself another task for a small landing page update. When working on the 
 				landing page update, I found it to be relatively difficult to work from home given I had to work off only a 
 				laptop, whereas I had been used to developing with the 3 screens, a keyboard and a mouse. This week I also 
 				began building the Smart Home landing page for mobile, the biggest build I had worked on to date, given a 
 				5-page weight in the content schedule. 
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/151018-smart.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 15<sup>th</sup> October 2018',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/151018-smart.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 15<sup>th</sup> October 2018',
+                        information: `<strong>All Day</strong><br />
 						Today I worked from home, spending the morning finishing off the 4thways I hadn’t 
 						started from Friday, and I also assigned myself another task for a small landing page update. 
 						When working on the landing page update, I found it to be relatively difficult to work from 
@@ -1444,18 +1444,18 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						unable to complete the quantity of work usually complete in office as I had to take time out 
 						of my day.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 16<sup>th</sup> October 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 16<sup>th</sup> October 2018',
+                        information: `<strong>All Day</strong><br />
 						Today was spent building the Smart Home landing page for mobile. This was the largest build I had 
 						worked on for mobile, involving a header section and 4 tabs, each with their own unique content, a 
 						large amount of copy, and including videos.
 						`,
-					},
-					3: {
-						title: 'Day 3 - -17<sup>th</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - -17<sup>th</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						This Morning I continued with the Smart Home landing page for mobile.
 						<br /><strong>Afternoon</strong><br / >
 						Meeting with Lucie to help with HTML CSS project she was working on, 
@@ -1464,10 +1464,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						out with an issue of overlaying one image on top of another, specifically, placing 
 						a basket over a clothing item.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 18<sup>th</sup> October 2018 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 18<sup>th</sup> October 2018 **',
+                        information: `<strong>Morning</strong><br />
 						Today I continued with Smart Home LP for mobile, the biggest build I had worked on 
 						to date, given a 5-page weight in the schedule. Building this page allowed me to 
 						deal with more JS than usual, specifically for the tabbing function. I tried writing 
@@ -1482,10 +1482,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						I used this to scroll the page from its current position to the top of the banner above 
 						the 4 tabs on the Smart Home page. 
 						`,
-					},
-					5: {
-						title: 'Day 5 - 19<sup>th</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 19<sup>th</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						Payday team breakfast, then began working on the GoPro brand store landing page for desktop, 
 						including tabs that, when clicked, display content for different products.
 						<br /><strong>Afternoon</strong><br / >
@@ -1493,22 +1493,22 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						tell meetings. He helped me understand the process of how they gather new ideas and select the 
 						few they can progress with. I then continued with the GoPro desktop brand store.
 						`,
-					}
-				}
-			},
-			4: {
-				title: 'Week 17',
-				date: '22/10/18 - 26/10/18',
-				information: `On Monday I attended a meeting with content team to discuss the Christmas timetable, 
+                    }
+                }
+            },
+            4: {
+                title: 'Week 17',
+                date: '22/10/18 - 26/10/18',
+                information: `On Monday I attended a meeting with content team to discuss the Christmas timetable, 
 				booking days off around the Christmas and new year period. The main project in focus this week was 
 				on updating the Gaming hub landing page for desktop, including videos and auto scroll features. 
 				I also had a meeting with Matt Wafer, discussing university submissions and deadlines.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/221018-gaming.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 22<sup>th</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/221018-gaming.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 22<sup>th</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						GoPro desktop brand store. Finished off the remaining two tabs to promote the Hero 
 						7 Silver and Hero 7 White devices. Then actioned amends to Smart Home page for mobile.
 						<br /><strong>Afternoon</strong><br / >
@@ -1517,29 +1517,29 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						me, even though I may or may not be in the content team at that time). Then continued to 
 						work on the GoPro brand store.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 23<sup>th</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 23<sup>th</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						Typed up logbook for previous and current month. This morning I also had a meeting 
 						with Mike, where we discussed my university coursework submissions and deadlines, 
 						and how I can adjust my workload at periods when submissions are required.
 						<br /><strong>Afternoon</strong><br / >
 						Began building the Gaming hub landing page for desktop, including videos and auto scroll features.
 						`,
-					},
-					3: {
-						title: 'Day 3 - -24<sup>th</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - -24<sup>th</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I finished off the Gaming hub landing page for desktop.
 						<br /><strong>Afternoon</strong><br / >
 						I spent time this afternoon reading over requirements for the introductory report 
 						for university, and I recapped over my logbook entries.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 25<sup>th</sup> October 2018 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 25<sup>th</sup> October 2018 **',
+                        information: `<strong>Morning</strong><br />
 						This morning I began making notes for the Introductory report for university.
 						<br /><strong>Afternoon</strong><br / >
 						This afternoon I had a catch up with Matt Wafer, discussing university submissions 
@@ -1551,10 +1551,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						in, hence why I don’t feel the need to rush the move. I also jumped on some financial services work, 
 						altering the Home Insurance Renewals page to revert it to the previous version.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 26<sup>th</sup> October 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 26<sup>th</sup> October 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on a new landing page build for Home Insurance, on both desktop 
 						and mobile. This build was relatively small, hence completing it, signing off and actioning 
 						amends before pushing live, all within the morning.
@@ -1563,29 +1563,29 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						tabbed page, containing a large amount of content including copy, images, scroll-to functions, 
 						videos and positioned CTA buttons.
 						`,
-					}
-				}
-			},
-			5: {
-				title: 'Week 18',
-				date: '29/10/18 - 31/10/18',
-				information: `This week I began on a large new build to update the Xbox brand store tabbed landing page for desktop. This 
+                    }
+                }
+            },
+            5: {
+                title: 'Week 18',
+                date: '29/10/18 - 31/10/18',
+                information: `This week I began on a large new build to update the Xbox brand store tabbed landing page for desktop. This 
 				update contains adding in functionality for the scroll function for the sub-navigation bar, the dropdown functions, and 
 				the inner tabbed landing page within one of the dropdowns. This build is the most JavaScript heavy project I've worked on 
 				so far at Shop Direct.				
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/291018-xbox.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 29<sup>th</sup> October 2018',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/291018-xbox.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 29<sup>th</sup> October 2018',
+                        information: `<strong>All Day</strong><br />
 						Today I continued working on the Gaming hub build for desktop, finishing off adding in and 
 						positioning content, as well as videos.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 30<sup>th</sup> October 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 30<sup>th</sup> October 2018',
+                        information: `<strong>All Day</strong><br />
 						Today I started working on a collapsible sub-navigation bar for the Xbox brand store 
 						update I had recently built. The purpose of this is to keep the navigation displayed 
 						in view after the user scrolls past, with the collapsible feature to reduce the amount 
@@ -1593,41 +1593,41 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						point where the sub-navigation bar was located, it would expand to its original height and 
 						become relative to other elements on the page again.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 31<sup>st</sup> October 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 31<sup>st</sup> October 2018',
+                        information: `<strong>All Day</strong><br />
 						Today I continued working on the Xbox brand store build, working on adding in 
 						functionality for the scroll function for the sub-navigation bar, the dropdown 
 						functions, and the inner tabbed landing page within one of the dropdowns. I spent 
 						time sat with Luis to get an idea of the best method to approach these tasks, and he 
 						also gave me a few pointers as to how to create the dropdown menus.
 						`,
-					}
-				}
-			}
-		}
-	},
-	Nov: {
-		week:{
-			1:{
-				title: 'Week 18',
-				date: '01/11/18 - 02/11/18',
-				information: `I continued to work on the Xbox brand store, finishing off adding in the functionality 
+                    }
+                }
+            }
+        }
+    },
+    Nov: {
+        week: {
+            1: {
+                title: 'Week 18',
+                date: '01/11/18 - 02/11/18',
+                information: `I continued to work on the Xbox brand store, finishing off adding in the functionality 
 				for dropdowns. After building the brandstore, I learned that a more efficient process would have 
 				been to develop the functionality for the page, and then add in content.				
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/011118-xbox.jpg',
-				days: {
-					1:{
-						title: 'Day 4 - 01<sup>st</sup> November 2018',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/011118-xbox.jpg',
+                days: {
+                    1: {
+                        title: 'Day 4 - 01<sup>st</sup> November 2018',
+                        information: `<strong>All Day</strong><br />
 						Holiday.
 						`,
-					},
-					2:{
-						title: 'Day 5 - 02<sup>nd</sup> November 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    2: {
+                        title: 'Day 5 - 02<sup>nd</sup> November 2018',
+                        information: `<strong>All Day</strong><br />
 						Today I continued to work on the Xbox brand store, finishing off adding in the functionality 
 						for dropdowns. After building the brandstore, I learned that a more efficient process would have 
 						been to develop the functionality for the page, and then add in content, as it can become confusing 
@@ -1638,37 +1638,37 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						initial point where the sub-navigation bar was located, it would expand to its original height and 
 						become relative to other elements on the page again.
 						`,
-					}
-				}
-			},
-			2:{
-				title: 'Week 19',
-				date: '05/11/18 - 09/11/18',
-				information: `I continued to work on the Xbox brand store, finishing off adding in the functionality 
+                    }
+                }
+            },
+            2: {
+                title: 'Week 19',
+                date: '05/11/18 - 09/11/18',
+                information: `I continued to work on the Xbox brand store, finishing off adding in the functionality 
 				for dropdowns. Later in the week I began building the Clarks brand store landing page, focusing on the 
 				desktop build. Other projects this week included The North Face brand store update, 4thway updates for 
 				several brands, as well as working on my logbook updates.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/291018-xbox.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 05<sup>th</sup> November 2018',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/291018-xbox.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 05<sup>th</sup> November 2018',
+                        information: `<strong>All Day</strong><br />
 						Today I continued to finish off the new functionality for the Xbox brand store page, then templated 
 						up a copy of the page and stripped the content so that there was a clear example of the collapsible 
 						sub-navigation feature to show the content team.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 06<sup>th</sup> November 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 06<sup>th</sup> November 2018',
+                        information: `<strong>All Day</strong><br />
 						Today I worked on several 4thway for desktop and mobile, located on the Silvercross and Murad brand 
 						stores. Each of these 4thways included copy and links.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 07<sup>th</sup> November 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 07<sup>th</sup> November 2018',
+                        information: `<strong>All Day</strong><br />
 						Today I worked on an update to the Clarks brand store landing page, focusing on the desktop build. 
 						The complexity of this build was relatively simple, including a small amount of copy, 2 videos and 
 						pdf attachments, however, the page did include adding in a hotspot, a feature I was unfamiliar with. 
@@ -1677,39 +1677,39 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						the code used to generate the modal popup, allowing the customer to filter and select the item before adding 
 						it to their basket. 
 						`,
-					},
-					4: {
-						title: 'Day 4 - 08<sup>th</sup> November 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 08<sup>th</sup> November 2018',
+                        information: `<strong>All Day</strong><br />
 						This morning I finished off the Clarks brand store landing page for desktop, then began building The North Face 
 						brand store update for desktop. This update was relatively simple, following a consistent theme for each section 
 						of content. During the afternoon I worked on the mobile build of The North Face brand store update.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 09<sup>th</sup> November 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 09<sup>th</sup> November 2018',
+                        information: `<strong>All Day</strong><br />
 						This morning I spent time updating my logbook and adding in notes to my introductory report. During the afternoon 
 						I began building the Microsoft surface landing page update for mobile, initially adding in the top slider carousel 
 						and introductory content, understanding that the custom sliders and content would take longer to design. This provided 
 						a start to the build before Monday.
 						`,
-					}
-				}
-			},
-			3:{
-				title: 'Week 20',
-				date: '12/11/18 - 16/11/18',
-				information: `My main focus this week was on the Microsoft surface landing page for mobile. Although 
+                    }
+                }
+            },
+            3: {
+                title: 'Week 20',
+                date: '12/11/18 - 16/11/18',
+                information: `My main focus this week was on the Microsoft surface landing page for mobile. Although 
 				this was assumed to be a relatively simple build, given a page weight of 2 in the schedule, there were 
 				many sliders on the page, the with the primary slider determining the content displayed below. This became 
 				relatively difficult to manage all the sliders, given their different properties and styles.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/121118-microsoft.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 12<sup>th</sup> November 2018 **',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/121118-microsoft.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 12<sup>th</sup> November 2018 **',
+                        information: `<strong>All Day</strong><br />
 						Today I began working on the Microsoft surface landing page for mobile. Although this 
 						was assumed to be a relatively simple build, given a page weight of 2 in the schedule, 
 						there were many sliders on the page, the with the primary slider determining the content 
@@ -1722,10 +1722,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Below the custom content for each device, a dynamic carousel was to be added, followed by 
 						another slider to scroll between the benefits of using Windows.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 13<sup>th</sup> November 2018 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 13<sup>th</sup> November 2018 **',
+                        information: `<strong>Morning</strong><br />
 						This morning I continued with the Microsoft surface landing page for mobile, having developed 
 						the primary slider that will be used to switch between content the previous day. I then began 
 						to add content to be displayed on show of the first Microsoft surface device.
@@ -1738,10 +1738,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						After staying behind till around 6, we were able to produce an efficient solution that could 
 						initialise the sliders upon scroll of the primary slider, which was initialised separately. 
 						`,
-					},
-					3: {
-						title: 'Day 3 - 14<sup>th</sup> November 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 14<sup>th</sup> November 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I finished off final amends to the Microsoft Surface landing page build for mobile 
 						before sending over for sign off. 
 						<br /><strong>Afternoon</strong><br />
@@ -1749,32 +1749,32 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						desktop. This involved updating 3 inspiration tabs, each with a small amount of similarly structured 
 						content, therefore reducing the complexity of the build.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 15<sup>th</sup> November 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 15<sup>th</sup> November 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I finished off the Silentnight brand store update for desktop, making final amends before 
 						sending over for sign off.
 						<br /><strong>Afternoon</strong><br />
 						During the afternoon I worked on the Silentnight brand store update for mobile, containing the same content 
 						as the desktop build with 3 inspiration tabs, the only difference being the layout of the content.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 16<sup>th</sup> November 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 16<sup>th</sup> November 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I finished off the Silentnight brand store update for mobile, making final amends before sending over for sign off.
 						<br /><strong>Afternoon</strong><br />
 						During the afternoon I worked on adding to my current notes for the introductory report, beginning to put a structure together 
 						as to the content I would include.
 						`,
-					}
-				}
-			},
-			4:{
-				title: 'Week 21',
-				date: '19/11/18 - 23/11/18',
-				information: `This week was the event of Black Friday. The approach taken to Black Friday was a slow release 
+                    }
+                }
+            },
+            4: {
+                title: 'Week 21',
+                date: '19/11/18 - 23/11/18',
+                information: `This week was the event of Black Friday. The approach taken to Black Friday was a slow release 
 				launch of promotions over a 2-week period, as opposed to hourly drops on the day of Black Friday. There was a 
 				significant amount of responsibility on the Content team, required to provide maximum support for the Black 
 				Friday updates. This involved 24-hour support the day of the event. On the day of the Black Friday event, I 
@@ -1782,11 +1782,11 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 				set up with computers for content updates, with a separate working area for the branding team to update us on 
 				changes that need actioning.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/191118-blackFriday.jpg',
-				days: {
-					1:{
-						title: 'Day 1 - 19<sup>th</sup> November 2018',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/191118-blackFriday.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 19<sup>th</sup> November 2018',
+                        information: `<strong>Morning</strong><br />
 						Worked on several 4thways promoting the Rubies kids toys brand, situating them 
 						on the Disney Princess page and Kids fancy dress page, both on desktop and mobile 
 						across Very and Littlewoods.
@@ -1798,10 +1798,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						This afternoon I focused on the custom sub-navigation, implementing JavaScript functionality 
 						to display certain content.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 20<sup>th</sup> November 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 20<sup>th</sup> November 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I continued working on the Extra Hour Computing landing page for desktop, 
 						finishing off the styling to the custom sub-navigation then began working on the first tab, 
 						promoting the new Lenovo laptop. 
@@ -1809,20 +1809,20 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						During the afternoon I completed adding and styling content for the first tab on the Extra 
 						Hour Computing landing page for desktop, then began working on the second tab promoting a HP laptop.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 21<sup>st</sup> November 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 21<sup>st</sup> November 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I continued working on the Extra Hour Computing landing page for desktop, finishing 
 						off the HP tab, then began working on the Acer tab.
 						<strong>Afternoon</strong><br />
 						This afternoon I finished off the Acer tab on the Extra Hour Computing landing page for desktop, 
 						adding the update to the BCC and sending the staging link over to Threefold for sign off.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 22<sup>nd</sup> November 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 22<sup>nd</sup> November 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I had a new laptop installed, first ensuring all files and other 
 						useful tools were sent over to the new machine. My old machine and docking station 
 						were then removed. I spent the rest of the morning re-adding shortcuts, bookmarks, 
@@ -1835,10 +1835,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						top of the sub-navigation bar, it collapses into a smaller, fixed navigation, returning to 
 						normal when the user scrolls back to the original location of the sub-navigation bar.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 23<sup>rd</sup> November 2018 **',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 23<sup>rd</sup> November 2018 **',
+                        information: `<strong>All Day</strong><br />
 						Today I worked on the Black Friday updates with the Content team. The Approach taken 
 						to Black Friday was a slow release launch of promotions over a 2-week period, as opposed 
 						to hourly drops on the day of Black Friday, thus allowing easier management of the event. 
@@ -1856,22 +1856,22 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Use of Trello boards was very useful in managing the workflow of different tasks between teams, as it allowed 
 						live updates to occur so content could be changed asap.
 						`,
-					}
-				}
-			},
-			5:{
-				title: 'Week 22',
-				date: '26/11/18 - 30/11/18',
-				information: `At the start of the week I picked up the Love Giving page amends for Sam in his absence, 
+                    }
+                }
+            },
+            5: {
+                title: 'Week 22',
+                date: '26/11/18 - 30/11/18',
+                information: `At the start of the week I picked up the Love Giving page amends for Sam in his absence, 
 				fixing the video pop up on mobile. This was a high priority task that was required to go live on a fixed 
 				date. Other builds I worked on this week included the Ryobi brand store, the Playmobil brand store, and 
 				several 4thways for desktop and mobile.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/261118-ryobi.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 26<sup>th</sup> November 2018 **',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/261118-ryobi.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 26<sup>th</sup> November 2018 **',
+                        information: `<strong>Morning</strong><br />
 						This morning I picked up amends for Sam in his absence, fixing the video on the 
 						‘Love Giving’ page for mobile, before pushing the page live tomorrow morning. It 
 						was important that I fixed this before the afternoon given Beth, the point of contact 
@@ -1883,10 +1883,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						small update, changing several cells imagery and text content, but maintaining the same layout. 
 						I then performed the same changes for mobile.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 27<sup>th</sup> November 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 27<sup>th</sup> November 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on the Ryobi brand store, first focusing on the desktop build. As this was a 
 						priority task in the schedule, it was important that I complete this build as quick as possible. 
 						As this was a new build, I had to start with a blank template, however given there was no additional 
@@ -1895,56 +1895,56 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						During the afternoon I finished off the Ryobi brand store for desktop, then added these changes to 
 						the BCC to send across for sign off.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 28<sup>th</sup> November 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 28<sup>th</sup> November 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on the Ryobi brand store, focusing on the mobile build. This contained the same 
 						content as the desktop build but was structured in a different format.
 						<br /><strong>Afternoon</strong><br />
 						During the afternoon I finished off the Ryobi brand store for desktop, then added these changes to the 
 						BCC to send across for sign off.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 29<sup>th</sup> November 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 29<sup>th</sup> November 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on my introductory report, working on amends to the description/introductory paragraph.
 						<br /><strong>Afternoon</strong><br />
 						During the afternoon I continued to work on my introductory report assignment for university due to the supplier 
 						funded content schedule being close to completion for this week. In specific, I worked on amends to the project 
 						description and aims of the projects.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 30<sup>th</sup> November 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 30<sup>th</sup> November 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on several 4thways for desktop and mobile, related to the Pure brand, as well as adding in an 
 						order confirmation banner on the order confirmation page.
 						<br /><strong>Afternoon</strong><br />
 						During the afternoon I focused on adding to my introductory report, adding to the glossary to list all abbreviations 
 						and key terms I’ve mentioned in the report so far.
 						`,
-					}
-				}
-			}
-		}
-	},
-	Dec: { 
-		week:{
-			1:{
-				title: 'Week 23',
-				date: '03/12/18 - 07/12/18',
-				information: `I began the week making final amends to my Introductory Report after receiving feedback from Matt. 
+                    }
+                }
+            }
+        }
+    },
+    Dec: {
+        week: {
+            1: {
+                title: 'Week 23',
+                date: '03/12/18 - 07/12/18',
+                information: `I began the week making final amends to my Introductory Report after receiving feedback from Matt. 
 				On Tuesday morning my academic advisor from university visited Shop Direct for a check-up meeting, getting an 
 				update on my current experience so far at Shop Direct. We started by having a chat in costa, followed by a brief 
 				building tour, then meeting my managers, Matt & Mike, so they could discuss my progress.	
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/031218-visit.jpg',
-				days: {
-					1:{
-						title: 'Day 1 - 03<sup>rd</sup> December 2018',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/031218-visit.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 03<sup>rd</sup> December 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on my Introductory Report, making final amends after receiving 
 						feedback from Matt regarding the ‘analysis of new skills’ section.
 						<br /><strong>Afternoon</strong><br />
@@ -1952,10 +1952,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						tomorrow, should there be time. This summarized my role in the current team, discussing why 
 						the BAU and Supplier funded teams exist.
 						`,
-					},
-					2:{
-						title: 'Day 2 - 04<sup>th</sup> December 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 04<sup>th</sup> December 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning my academic advisor from university visited Shop Direct for a check-up meeting, 
 						getting an update on my current experience so far at Shop Direct. We started by having a chat in 
 						costa, followed by a brief building tour, then meeting my managers, Matt & Mike, so they could 
@@ -1967,10 +1967,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						During the afternoon I worked on the Nike brand store update, initially focusing on the desktop build. This 
 						was a simple update, rearranging the order of cells and adding in an additional cell with text content.
 						`,
-					},
-					3:{
-						title: 'Day 3 - 05<sup>th</sup> December 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 05<sup>th</sup> December 2018',
+                        information: `<strong>Morning</strong><br />
 						Desk decorated with Birthday balloons and banners, since it was my 21st the following day. Also received 
 						a card signed by the team, and a gift voucher for Alphalete. This morning I worked on the Nike brand store 
 						update, focusing on the mobile build. The required content to be updated and added was the same as that 
@@ -1979,34 +1979,34 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						During the afternoon I worked on the Samsung tablet 4thway for desktop and mobile, then worked on the Hugo 
 						Boss 4thway banner addition.
 						`,
-					},
-					4:{
-						title: 'Day 4 - 06<sup>th</sup> December 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 06<sup>th</sup> December 2018',
+                        information: `<strong>All Day</strong><br />
 						Holiday
 						`,
-					},
-					5:{
-						title: 'Day 5 - 07<sup>th</sup> December 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 07<sup>th</sup> December 2018',
+                        information: `<strong>All Day</strong><br />
 						Holiday
 						`,
-					}
-				}
-			},
-			2:{
-				title: 'Week 24',
-				date: '10/12/18 - 14/12/18',
-				information: ` I began this week building the Instant Event landing page for desktop. This was a full width (930px) 
+                    }
+                }
+            },
+            2: {
+                title: 'Week 24',
+                date: '10/12/18 - 14/12/18',
+                information: ` I began this week building the Instant Event landing page for desktop. This was a full width (930px) 
 				page, with custom tab navigation to separate printers and cameras content, changing the content displayed below. 
 				As well as this build, I had a catch up with Matt, discussing the move to the agile squads. He mentioned that I need 
 				to arrange meetings with certain people from the discovery tribe to find out more. 
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/101218-event.jpg',
-				days: {
-					1:{
-						title: 'Day 1 - 10<sup>th</sup> December 2018',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/101218-event.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 10<sup>th</sup> December 2018',
+                        information: `<strong>All Day</strong><br />
 						Today I focused on adding in 4thway banners to several pages, including:<br />
 						-	max factor banner (Desktop & Mobile, Very &Littlewoods)<br />
 						-	sanctuary spa banner (D&M, V&LW)<br />
@@ -2014,10 +2014,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Also, I actioned the amends for the instant event and kitchen event 4thways, going live at 
 						a later date. I ensured all these pages were updated in the BCC.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 11<sup>th</sup> December 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 11<sup>th</sup> December 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I began building the Instant Event landing page for desktop. This was a full 
 						width (930px) page, with custom tab navigation to separate printers and cameras content, 
 						changing the content displayed below. Within each of these tabs, there were several videos, 
@@ -2033,10 +2033,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						of this meeting was to progress the idea of content categories to incorporate on the blog. Categories 
 						discussed included training and nutrition.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 12<sup>th</sup> December 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 12<sup>th</sup> December 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I finished off the Instant Event build for desktop. I had an issue with the video posters 
 						being part of a larger image, therefore to embed the videos over these would hide the poster. To solve 
 						this, I styled the embedded videos so they were placed exactly over the video posters, then wrote a JS 
@@ -2049,10 +2049,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						This afternoon I performed amends to the Instant Event landing page, then pushing this project live. I 
 						then worked on the adding in a Rimmel 4thway banner on desktop & mobile, across Very & Littlewoods.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 13<sup>th</sup> December 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 13<sup>th</sup> December 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on the Murad landing page amends, writing some JavaScript code to match the top 
 						banner with current tab displayed. I then performed some contingency work for financial services, the 
 						removal of Home Insurance IPID on desktop & mobile, for Very & Littlewoods, a relatively quick update. 
@@ -2060,28 +2060,28 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						<br /><strong>Afternoon</strong><br />
 						Holiday
 						`,
-					},
-					5: {
-						title: 'Day 5 - 14<sup>th</sup> December 2018',
-						information: `<strong>All day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 14<sup>th</sup> December 2018',
+                        information: `<strong>All day</strong><br />
 						Holiday
 						`,
-					}
-				}
-			},
-			3:{
-				title: 'Week 25',
-				date: '17/12/18 - 21/12/18',
-				information: `This week I focused on building ‘The one for Headphones’ landing page, involving adding in 2 inspiration tabs, with separate 
+                    }
+                }
+            },
+            3: {
+                title: 'Week 25',
+                date: '17/12/18 - 21/12/18',
+                information: `This week I focused on building ‘The one for Headphones’ landing page, involving adding in 2 inspiration tabs, with separate 
 				versions on Very & Littlewoods. Later in the week I had a one-to-one with Mike, where we discussed missing members of our team, and how 
 				workflow will be managed during the Christmas period. Given Jill and Luis were away from the team, myself, Paul and Shaun had to pick up 
 				their current projects as well as our own. Consequently, I decided to take on ‘The one for Headphones’ mobile build developed by Luis. 
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/171218-headphones.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 17<sup>th</sup> December 2018',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/171218-headphones.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 17<sup>th</sup> December 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I began working on ‘The one for Headphones’ landing page, involving adding in 
 						2 tabs, with separate versions on Very & Littlewoods, the differences included below:<br />
 						Very contained 5 tabs, 2 new tab additions & 1 existing tab required colour changes (image oversaves and CSS alterations).<br /> 
@@ -2090,10 +2090,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						<br /><strong>Afternoon</strong><br />
 						During the afternoon I continued building ‘The one for Headphones’ landing page on Very.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 18<sup>th</sup> December 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 18<sup>th</sup> December 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I went for a Tavern breakfast with threefold agency/creative designers/supplier funded content team.
 						<br /><strong>Afternoon</strong><br />
 						During the afternoon I worked on ‘The one for Headphones’ landing page on Littlewoods. This contained 
@@ -2107,10 +2107,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						us to update him on management of our schedule and projects, should we require any guidance or need to 
 						involve him in any conflicts with other teams.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 19<sup>th</sup> December 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 19<sup>th</sup> December 2018',
+                        information: `<strong>All Day</strong><br />
 						Given Jill and Luis off/away from the team, me, Paul and Shaun had to pick up their current projects 
 						as well as our own. Consequently, I decided to take on ‘The one for Headphones’ mobile build developed 
 						by Luis. I spent the day finishing off his build for mobile. Although I was familiar with the page 
@@ -2118,10 +2118,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						initially. Along with sliders, carousels and videos, there was also additional JavaScript that had to 
 						be implemented and edited.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 20<sup>th</sup> December 2018',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 20<sup>th</sup> December 2018',
+                        information: `<strong>Morning</strong><br />
 						This morning I added to my logbook, then worked on amends for ‘The one for Headphones’ landing page 
 						build for desktop, my original project. I had been told mobile amends will be given on Friday, so I 
 						could spend the remainder of the morning and afternoon working on other projects once desktop amends were complete.
@@ -2129,39 +2129,39 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						This afternoon I added in a 4thway promoting Levi’s men’s & women’s jeans, built on both desktop and mobile across 
 						Very and Littlewoods, including copy.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 21<sup>th</sup> December 2018',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 21<sup>th</sup> December 2018',
+                        information: `<strong>All Day</strong><br />
 						Today I worked on the mobile amends for ‘The one for Headphones’ landing page, and actioned the second round of amends 
 						for the desktop build. Once these were complete I was able to push the project live.
 						`,
-					}
-				}
-			}
-		}
-	},
-	Jan: {
-		week:{
-			1: {
-				title: 'Week 26',
-				date: '01/01/19 - 04/01/19',
-				information: `The majority of this week was spent implementing Lazy Loading onto several landing pages on desktop and 
+                    }
+                }
+            }
+        }
+    },
+    Jan: {
+        week: {
+            1: {
+                title: 'Week 26',
+                date: '01/01/19 - 04/01/19',
+                information: `The majority of this week was spent implementing Lazy Loading onto several landing pages on desktop and 
 				mobile, both Very and Littlewoods. The lazy load script prevents the downloading of all images on page load, hiding images 
 				and only downloading them when they come into view. The purpose of this is to reduce page load in times, useful for customers 
 				on a limited data package, should they not view the inspiration tabs.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/010119-loading.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 01<sup>st</sup> January 2019',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/010119-loading.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 01<sup>st</sup> January 2019',
+                        information: `<strong>All Day</strong><br />
 							Holiday
 							`,
-					},
-					2: {
-						title: 'Day 2 - 02<sup>nd</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 02<sup>nd</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 							This morning I added JavaScript functionality to the Murad Guide landing page promoting the Murad brand. This 
 							functionality was implemented so the correct banner is displayed above the sub-navigation bar, based on the 
 							current tab displayed from the sub-navigation. This was added in on both Very and Littlewoods sites.
@@ -2174,37 +2174,37 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 							the purpose of the code and was therefore able to implement a fix that allowed the products in the dynamic carousel 
 							to display correctly on page load.
 							`,
-					},
-					3: {
-						title: 'Day 3 - 03<sup>rd</sup> January 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 03<sup>rd</sup> January 2019',
+                        information: `<strong>All Day</strong><br />
 							This morning I worked on the New year new you 4thways on the Women’s sports shoes page. These banners 
 							included copy & links, on both Very & Littlewoods, desktop & mobile.<br />
 							I then implemented Lazy Loading onto the Coffee Machines landing page on Very & Littlewoods, desktop & mobile, 
 							initially starting with Very desktop.
 							`,
-					},
-					4: {
-						title: 'Day 4 - 04<sup>th</sup> January 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 04<sup>th</sup> January 2019',
+                        information: `<strong>All Day</strong><br />
 							Today I spent time implementing lazy loading to the Smart Home landing page on Very & Littlewoods, both desktop 
 							and mobile.
 						`,
-					}
-				}
-			},
-			2: {
-				title: 'Week 27',
-				date: '07/01/19 - 11/01/19',
-				information: `This week was focused around improving my JavaScript abilities, working through the JavaScript 30 online courses. 
+                    }
+                }
+            },
+            2: {
+                title: 'Week 27',
+                date: '07/01/19 - 11/01/19',
+                information: `This week was focused around improving my JavaScript abilities, working through the JavaScript 30 online courses. 
 				Also, this week I spent time building ‘The One for Dishwashers landing page on desktop and mobile, for both brands. This was a 
 				relatively simple built, as I was able to copy a similar existing build on site, changing the content and several layout features.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/070119-javascript30.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 07<sup>th</sup> January 2019',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/070119-javascript30.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 07<sup>th</sup> January 2019',
+                        information: `<strong>All Day</strong><br />
 						This morning I pushed several projects live, including the Microsoft office banner removal, 
 						and the ‘New year new you’ 4thways for women’s clothes and shoes. I spent the remainder of 
 						the day doing training, specifically working on JavaScript 30 Online courses. During this 
@@ -2212,61 +2212,61 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Task 4 – Array cardio day, discovering different methods that can be used on arrays.<br />
 						Flex panels image gallery task – involved using the CSS style/tool called flex, & how this can be used.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 08<sup>th</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 08<sup>th</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on ‘The One for Dishwashers’ landing page for desktop, on both Very & Littlewoods.
 						<br /><strong>Afternoon</strong><br />
 						I spent the remainder of the day doing training, specifically working on JavaScript 30 Online courses. 
 						During this time I completed the following tasks – <br />
 						Ajax type ahead – implemented JS/CSS to enable a search & match tool for cities or states containing letters entered by the user
 						`,
-					},
-					3: {
-						title: 'Day 3 - 09<sup>th</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 09<sup>th</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 						This morning I implemented lazy loading to ‘The One for Dishwashers’ landing page for desktop, on Very & Littlewoods, then uploaded to the BCC.
 						<br /><strong>Afternoon</strong><br />
 						I spent the remainder of the day doing training, specifically working on JavaScript 30 Online courses. 
 						During this time I completed the following tasks – <br />
 						Array Cardio Day 2 – discovering further methods that can be used on arrays.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 10<sup>th</sup> January 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 10<sup>th</sup> January 2019',
+                        information: `<strong>All Day</strong><br />
 						I spent today doing training, specifically working on JavaScript 30 Online courses. 
 						During this time I completed the following tasks – <br />
 						Fun with HTML5 canvas – using tools to create a canvas that, when clicked, acts as a coloured pen on screen.<br />
 						14 must know Dev tools tricks – useful tools in the developer tools on Google Chrome.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 11<sup>th</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 11<sup>th</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on 'The One for Dishwashers' landing page for mobile, on both brands.
 						<br /><strong>Afternoon</strong><br />
 						This afternoon I worked on amends for 'The One for Dishwashers' landing page for desktop and mobile, on both brands. These 
 						amends were then sent back over for final sign off before going live.
 						`,
-					}
-				}
-			},
-			3: {
-				title: 'Week 28',
-				date: '14/01/19 - 18/01/19',
-				information: `During the week I picked up a piece of contingency work for Mike, adding in a new cell to promote Grenade products 
+                    }
+                }
+            },
+            3: {
+                title: 'Week 28',
+                date: '14/01/19 - 18/01/19',
+                information: `During the week I picked up a piece of contingency work for Mike, adding in a new cell to promote Grenade products 
 				on the New Year New You page on Very and Littlewoods. There were complaints that a custom Buy Now Pay Later carousel banner had 
 				been pushed live that was not approved by the financial services team. Consequently, we were asked to immediately remove this, 
 				which I handled. I then spoke with Mike and Adrienne about the process of adding or updating BNPL banners. Other builds this week 
 				included The One for Dishwashers landing page for mobile, and the Starlink brand store update.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/180119-starlink.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 14<sup>th</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/180119-starlink.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 14<sup>th</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 						This morning I spent time building The One for Dishwashers landing page for mobile, 
 						on both Very & Littlewoods. This build contained 3 tabs within the landing page tabs, 
 						with each tab containing a video, 3 sliders, text copy, links, CTA buttons, and content 
@@ -2277,10 +2277,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						<br /><strong>Afternoon</strong><br />
 						This afternoon I continued with The One for Dishwashers landing page for mobile, focusing on the Very build.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 15<sup>th</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 15<sup>th</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 						This morning I continued working on The One for Dishwashers landing page for mobile, Littlewoods build. Following 
 						this I sent the project over for sign off and completed amends once received. This could then be signed off and 
 						pushed live.
@@ -2290,50 +2290,50 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						a background image had been used for each tab. There were a total of 4 tabs to be built, each with different content, 
 						and a total of 12 videos with embedded with video posters across all of the tabs. 
 						`,
-					},
-					3: {
-						title: 'Day 3 - 16<sup>th</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 16<sup>th</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on the Starlink brand store desktop build for Very.
 						<br /><strong>Afternoon</strong><br />
 						This afternoon I worked on the Starlink brand store desktop build for Littlewoods. The build for Littlewoods was very 
 						similar to that of Very, however there were changes to many of the CTA buttons, therefore it was important that I ensured 
 						all links were replaced correctly, preventing broken links from being clicked.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 17<sup>th</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 17<sup>th</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 						This morning I finished off the Starlink brand store desktop build for Very and Littlewoods, then sent over for sign off. 
 						After receiving amends, these were completed before the project was pushed live.
 						<br /><strong>Afternoon</strong><br />
 						This afternoon I worked through the JavaScript 30 online courses, this time completing Hold shift to check multiple 
 						checkboxes, building a tool used on email to select many items.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 18<sup>th</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 18<sup>th</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 						This morning I continued with the JavaScript 30 online courses, focusing on building a custom HTML 5 video player.
 						<br /><strong>Afternoon</strong><br />
 						
 						`,
-					}
-				}
-			},
-			4: {
-				title: 'Week 29',
-				date: '21/01/19 - 25/01/19',
-				information: `To start this week, I moved over to the discovery tribe, sitting next to Dylan Bullas, 
+                    }
+                }
+            },
+            4: {
+                title: 'Week 29',
+                date: '21/01/19 - 25/01/19',
+                information: `To start this week, I moved over to the discovery tribe, sitting next to Dylan Bullas, 
 				one of the current second year apprentices. My first task was to identify the features and discrepancies 
 				of the gallery page. Throughout the week I arranged meetings with each member of the discovery tribe to 
 				find out about their role in the squad.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/210119-dt.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 21<sup>st</sup> January 2019 **',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/210119-dt.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 21<sup>st</sup> January 2019 **',
+                        information: `<strong>Morning</strong><br />
 						Moved over to the discovery tribe, sitting next to Dylan Bullas, one of the current apprentices. 
 						First task was to identify the features and discrepancies of the gallery, making a list in an excel 
 						document. This simply involves listing features appearing on gallery pages so that the rebuild team 
@@ -2344,10 +2344,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						pages are constructed (look & feel), how they can be used, and the differences/discrepancies between 
 						desktop and mobile builds.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 22<sup>nd</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 22<sup>nd</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 						Worked on identifying the features and discrepancies of zone pages, similarly to the process used when 
 						identifying features on the gallery pages.
 						<br /><strong>Afternoon</strong><br />
@@ -2362,10 +2362,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						-	Heavily involves use of fuse guidelines in new designs to align with a consistent theme across site<br />
 						-	First line of testing – stress testing to determine if solution is viable, exploring all different customer journeys to decide if the suggested solution covers all possible outcomes
 						`,
-					},
-					3: {
-						title: 'Day 3 - 23<sup>rd</sup> January 2019 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 23<sup>rd</sup> January 2019 **',
+                        information: `<strong>Morning</strong><br />
 						Meeting with Ruth Richman to discuss data analysis<br />
 						-	Data analysis plays an important role in the discovery tribe, focusing on quantitative data 
 						that can be used to determine whether a project may go ahead or not. <br />
@@ -2392,10 +2392,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						-	Also learned about different methods of research, both qualitative and quantitative techniques. This included user interviews, usability tasks and Guerrilla studies (going to different local locations and asking in person to perform some task).
 
 						`,
-					},
-					4: {
-						title: 'Day 4 - 24<sup>th</sup> January 2019 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 24<sup>th</sup> January 2019 **',
+                        information: `<strong>Morning</strong><br />
 						Video tutorial – Linkedin learning – UX Research
 						<br /><strong>Afternoon</strong><br />
 						Meeting with Neil Blantern, the Business Analyst in the discovery tribe, to discuss his role & 
@@ -2408,31 +2408,31 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						-	The BA is typically invited to all meetings regarding a story at the early stages so they can voice what is possible, break down information overloads and determine the benefits it may have to the company. <br />
 						-	Once a story has been created and agreed with developers, the BA passes the story onto developers.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 25<sup>th</sup> January 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 25<sup>th</sup> January 2019',
+                        information: `<strong>All Day</strong><br />
 						Re-read over the list of discrepancies for the gallery (between desktop & mobile)<br />
 						Video tutorial – Linkedin learning – UX Research
 						`,
-					}
-				}
-			},
-			5: {
-				title: 'Week 30',
-				date: '28/01/19 - 31/01/19',
-				information: `I spoke with Kathryn and Mike, as it was required that I move back over to 
+                    }
+                }
+            },
+            5: {
+                title: 'Week 30',
+                date: '28/01/19 - 31/01/19',
+                information: `I spoke with Kathryn and Mike, as it was required that I move back over to 
 				content until the end of the week, given the low resource in the team. As a result, I moved 
 				back over to the content team to work with supplier funded content for the following week. 
 				Midweek the content team had a meeting with Shaun Brennan, regarding business changes across 
 				the four category teams, fashion, home, electrical and developing categories, as well as retail 
 				planning and operations, and marketing.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/280119-intel.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 28<sup>th</sup> January 2019 **',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/280119-intel.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 28<sup>th</sup> January 2019 **',
+                        information: `<strong>Morning</strong><br />
 						Final review of the discrepancies list for the gallery page. <br />
 						After the stand up, a meeting each morning around 9am to discuss progress of work within the team, 
 						I spoke with Kathryn and Mike, as it was required that I move back over to content until the end of 
@@ -2442,10 +2442,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Worked on the Intel brand store for mobile. This was a tabbed landing page build with a slider banner 
 						and two custom sliders to display featured content. 
 						`,
-					},
-					2: {
-						title: 'Day 2 - 29<sup>th</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 29<sup>th</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 						Finished off the Intel brand store mobile build.
 						<br /><strong>Afternoon</strong><br />
 						Came across an issue with the build, where the page heading was appearing below the main content.<br />
@@ -2457,10 +2457,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						After changing a letter to uppercase (sliderTarget - T) the sliders were displayed correctly.
 
 						`,
-					},
-					3: {
-						title: 'Day 3 - 30<sup>th</sup> January 2019 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 30<sup>th</sup> January 2019 **',
+                        information: `<strong>Morning</strong><br />
 						Worked on the desktop build for the Intel brand store, containing a tabbed landing page with 
 						slider banners (but no custom sliders).
 						<br /><strong>Afternoon</strong><br />
@@ -2472,36 +2472,36 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						possible uncertainty of our jobs given the business changes, however he reassured us that this is 
 						unlikely to affect the content team directly. 
 						`,
-					},
-					4: {
-						title: 'Day 4 - 31<sup>st</sup> January 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 31<sup>st</sup> January 2019',
+                        information: `<strong>Morning</strong><br />
 						Updated the logbook entries for the week.
 						<br /><strong>Afternoon</strong><br />
 						Picked up amends for Luis – Dell desktop & mobile builds and The one for Cookers LP.
 
 						`,
-					}
-				}
-			}
-		}
-	},
-	Feb: {
-		week:{
-			1: {
-				title: 'Week 30/Week 31',
-				date: '01/02/19 - 08/02/19',
-				information: `As several of the current jobs I was working on whilst back in the Content team were urgent, 
+                    }
+                }
+            }
+        }
+    },
+    Feb: {
+        week: {
+            1: {
+                title: 'Week 30/Week 31',
+                date: '01/02/19 - 08/02/19',
+                information: `As several of the current jobs I was working on whilst back in the Content team were urgent, 
 				I decided that that it was best to remain in the content team until Wednesday so that I could finish off 
 				projects I still remained a part of. On Wednesday afternoon I set up my PC & monitor next to Patrick Brown, 
 				one of the frontend developers in the Customer Journey squad.
 
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/010219-dt.jpg',
-				days: {
-					1: {
-						title: 'Day 5 - 01<sup>st</sup> February 2019 **',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/010219-dt.jpg',
+                days: {
+                    1: {
+                        title: 'Day 5 - 01<sup>st</sup> February 2019 **',
+                        information: `<strong>Morning</strong><br />
 						Meeting with Jill Woods – discussing role of Delivery manager<br />
 						-	Works with two teams, discovery tribe and the mobile app team<br />
 						-	Discovery tribe work in a ‘cambam’, where tasks are received or created and a length of time is assigned to complete.<br />
@@ -2521,20 +2521,20 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						-	UX researcher & designer (combined or separate)<br />
 						-	Each smaller team will focus on a project, then, once delivered, can disband and move into the larger team/other smaller teams.
 						`,
-					},
-					2: {
-						title: 'Day 1 - 04<sup>th</sup> February 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 1 - 04<sup>th</sup> February 2019',
+                        information: `<strong>Morning</strong><br />
 						Remained in content team to finish off current jobs, one of which was urgent (cookers landing page)
 						<br /><strong>Afternoon</strong><br />
 						Decided that it was best to remain in the content team until Wednesday so that I could finish off 
 						projects I still remained a part of, as well as allowing time for Jill Woods to make the suitable 
 						arrangements in the discovery tribe to allow for me to move over & shadow one of the developers (/Frontend engineers).	
 						`,
-					},
-					3: {
-						title: 'Day 2 - 05<sup>th</sup> February 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 2 - 05<sup>th</sup> February 2019',
+                        information: `<strong>Morning</strong><br />
 						Continued with projects for SF, including<br />
 						GHD brandstore – Very only, desktop & mobile<br />
 						Intel brandstore – Very/LW, added in links and sent over for sign off<br />
@@ -2543,10 +2543,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						One-to-one with Mike, discussed move into the product squads/agile teams & the role I had initially chosen to undertake, 
 						being as a frontend developer, initially shadowing one of the senior developers.						
 						`,
-					},
-					4: {
-						title: 'Day 3 - 06<sup>th</sup> February 2019 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 3 - 06<sup>th</sup> February 2019 **',
+                        information: `<strong>Morning</strong><br />
 						Moved back over to the squads, sitting next to Dylan Bullas, one of the Business Analysts in the Discovery tribe, working 
 						on final amends to content. 
 						<br /><strong>Afternoon</strong><br />
@@ -2557,10 +2557,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						-	Clear any inconsistencies between developers, designers & BA’s.<br />
 						-	Announce any important news.	
 						`,
-					},
-					5: {
-						title: 'Day 4 - 07<sup>th</sup> February 2019 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 4 - 07<sup>th</sup> February 2019 **',
+                        information: `<strong>Morning</strong><br />
 						Customer Journey meeting – James Wolstenholme<br />
 						Meeting regarding the Customer Journey squad & how their focus will be on prioritising projects 
 						that will be essential in the rebuild. A workflow schedule was also presented to estimate timescales 
@@ -2570,39 +2570,39 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						review stars, present on the gallery page, product page, and basket This was a desktop change through the BCC.<br />
 						Worked through JavaScript 30 online courses – slide in and scroll.
 						`,
-					},
-					6: {
-						title: 'Day 5 - 08<sup>th</sup> February 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    6: {
+                        title: 'Day 5 - 08<sup>th</sup> February 2019',
+                        information: `<strong>All Day</strong><br />
 						JavaScript 30 online course – <br />
 						Objects and arrays, reference vs copy<br />
 						LocalStorage and Event Delegation<br />
 						CSS Text Shadow Mouse Move Effect
 						`,
-					}
-				}
-			},
-			2: {
-				title: 'Week 32',
-				date: '11/02/19 - 15/02/19',
-				information: `This week was the first time I attended a CEDP monthly meetup meeting, whereby all members of the 
+                    }
+                }
+            },
+            2: {
+                title: 'Week 32',
+                date: '11/02/19 - 15/02/19',
+                information: `This week was the first time I attended a CEDP monthly meetup meeting, whereby all members of the 
 				CEDP team are presented with departmental updates. This week I was also able to attend my first UX lab session, 
 				focused on redesign of the advice note/return form received in the parcel when items are delivered. I also began 
 				putting ideas together for the layout of the logbook website.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/110219-ux.JPEG',
-				days: {
-					1: {
-						title: 'Day 1 - 11<sup>th</sup> February 2019',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/110219-ux.JPEG',
+                days: {
+                    1: {
+                        title: 'Day 1 - 11<sup>th</sup> February 2019',
+                        information: `<strong>All Day</strong><br />
 						JavaScript 30 online course – <br />
 						Sorting band names without articles<br />
 						Tally String times with reduce
 						`,
-					},
-					2: {
-						title: 'Day 2 - 12<sup>th</sup> February 2019 **',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 12<sup>th</sup> February 2019 **',
+                        information: `<strong>Morning</strong><br />
 						JavaScript 30 online course – <br />
 						Unreal webcam fun<br />
 						DISCO-383 – Very | Mobile | Product | Update review star colour – walked through by 
@@ -2627,20 +2627,20 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						each of the lab studies.
 
 						`,
-					},
-					3: {
-						title: 'Day 3 - 13<sup>th</sup> February 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 13<sup>th</sup> February 2019',
+                        information: `<strong>All Day</strong><br />
 						Designed a Customer Journey squad logo JavaScript 30 online course – <br />
 						Unreal webcam fun<br />
 						Native speech recognition<br />
 						(watched) Geolocation based speedometer & compass<br />
 						(Started) Follow along links
 						`,
-					},
-					4: {
-						title: 'Day 4 - 14<sup>th</sup> February 2019 **',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 14<sup>th</sup> February 2019 **',
+                        information: `<strong>All Day</strong><br />
 						JavaScript 30 online course – <br />
 						(completed) Follow along links<br />
 						Speech synthesis<br />
@@ -2652,93 +2652,93 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						with the remaining days to progress learning in the agile squad, with opportunity to 
 						focus on UX research, university assignments, and learn further from the developers in the squad.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 15<sup>th</sup> February 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 15<sup>th</sup> February 2019',
+                        information: `<strong>All Day</strong><br />
 						Began putting ideas together for the layout of the logbook website I will produce. <br />
 						Initial ideas included…<br />
 						-	Using Bootstrap to aid in use of a responsive website, directly making use of CSS<br />
 						-	Decided a calendar structure will not be used, however dropdown features will be used, with a modal appearing for displaying content for each week<br />
 						-	Initially believed a navigation bar was unnecessary as all info should be able to fit on one page.<br />
 						`,
-					}
-				}
-			},
-			3: {
-				title: 'Week 33',
-				date: '18/02/19 - 22/02/19',
-				information: `After moving back to the Customer Journey squad, now sat next to Jay, one of the frontend developers, 
+                    }
+                }
+            },
+            3: {
+                title: 'Week 33',
+                date: '18/02/19 - 22/02/19',
+                information: `After moving back to the Customer Journey squad, now sat next to Jay, one of the frontend developers, 
 				I worked on styling for my logbook website. I spent time with Jay, producing an example structure of how I can use 
 				JavaScript from an external file, then manipulate this information to display certain content upon a user action (e.g. click).
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/180219-jay.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 18<sup>th</sup> February 2019',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/180219-jay.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 18<sup>th</sup> February 2019',
+                        information: `<strong>All Day</strong><br />
 						Worked on styling for the logbook website during the morning. I then spent the afternoon with Jay, 
 						producing an example structure of how I can use JS from an external file, then manipulate this 
 						information to display certain content upon a user action (e.g. click). In the example, we focused 
 						on displaying the day/week content when the month was clicked.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 19<sup>th</sup> February 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 19<sup>th</sup> February 2019',
+                        information: `<strong>Morning</strong><br />
 						Worked on adding a navigation bar after realising the amount of content I would be adding is too 
 						much for one page. I then spoke to Kate Rylance to arrange attending the UX show & tell on Thursday, where 
 						all of UX comes together to talk about design ideas they’ve recently worked on.<br />
 						I sat down with Lucie & Jack to discuss the way in which I could display content on my logbook website, as I was looking 
 						for further inspiration for design ideas.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 20<sup>th</sup> February 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 20<sup>th</sup> February 2019',
+                        information: `<strong>All Day</strong><br />
 						Designed JS to enable the showing/hiding of content when a link in the navigation bar was clicked.,br />
 						Then developed styling for both the main navigation bar (hover styles) and began working on the logbook 
 						page, specifically the month navigation bar.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 21<sup>st</sup> February 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 21<sup>st</sup> February 2019',
+                        information: `<strong>All Day</strong><br />
 						Focused on the month navigation bar, specifically, displaying content for the month in the form of cards, located below 
 						the nav, to display a card for each week of the month.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 22<sup>nd</sup> February 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 22<sup>nd</sup> February 2019',
+                        information: `<strong>All Day</strong><br />
 						Continued writing JS to allow for display of the weeks for each month after the month has been clicked. 
 						This would be dynamically pulled in from the config.js file, which can be updated to update the HTML displayed. 
 						Then began working on the modal popup, opening when one of the cards for each week has been clicked. This modal 
 						will be used to display the days for the week.
 
 						`,
-					}
-				}
-			},
-			4: {
-				title: 'Week 34',
-				date: '25/02/19 - 28/02/19',
-				information: `This week, myself and the other interns visited the Shaw and Raven distribution centres. Raven is the returns centre, 
+                    }
+                }
+            },
+            4: {
+                title: 'Week 34',
+                date: '25/02/19 - 28/02/19',
+                information: `This week, myself and the other interns visited the Shaw and Raven distribution centres. Raven is the returns centre, 
 				where there are 11 million items returned each year. Shaw is the Distribution centre, with the bulk-capacity storage unit (BCS) 
 				used to store products.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/250219-distribution.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 25<sup>th</sup> February 2019',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/250219-distribution.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 25<sup>th</sup> February 2019',
+                        information: `<strong>All Day</strong><br />
 						Logbook updated<br />
 						Worked on adding dynamic content to the modal related to each week, then producing these dynamically for each individual week so unique content can be displayed automatically. 
 						`,
-					},
-					2: {
-						title: 'Day 2 - 26<sup>th</sup> February 2019 **',
-						information: `<strong>All Day</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 26<sup>th</sup> February 2019 **',
+                        information: `<strong>All Day</strong><br />
 						Trip to Shaw and Raven distribution centres<br />
 						Raven:<br />
 						-	Returns centre<br />
@@ -2754,40 +2754,40 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						-	Contains around 338,000 containers.<br />
 						-	Processing area packages a maximum of approximately 7200 products per hour.<br />
 						`,
-					},
-					3: {
-						title: 'Day 3 - 27<sup>th</sup> February 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 27<sup>th</sup> February 2019',
+                        information: `<strong>All Day</strong><br />
 						Sat with the customer journey tribe, as it was decided that each Wednesday I’d sit with the agile squads to keep involved with 
 						the processes of working, with opportunity to get involved on smaller stories. This time also allows for working on uni projects, being the logbook website as of recent.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 28<sup>th</sup> February 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 28<sup>th</sup> February 2019',
+                        information: `<strong>All Day</strong><br />
 						Continued working on my logbook website, given the supplier funded schedule was close to completion. Should there have been any contingency tasks or urgent builds, these would have been prioritised and picked up. Since no urgent projects were received, I was able to work on my logbook throughout the day, receiving help from Luis with regards to the Album page. 
 						`,
-					}
-				}
-			}
-		}
-	},
-	Mar: {
-		week: {
-			1: {
-				title: 'Week 34/Week 35',
-				date: '01/03/19 - 08/03/19',
-				information: `This week I focused on several landing page builds for the supplier funded content team, 
+                    }
+                }
+            }
+        }
+    },
+    Mar: {
+        week: {
+            1: {
+                title: 'Week 34/Week 35',
+                date: '01/03/19 - 08/03/19',
+                information: `This week I focused on several landing page builds for the supplier funded content team, 
 				including the Huawei brand store update for desktop and mobile, and the Sony Mobile update. One of the 
 				key events this week involved setting up visual studio code with the help of Luis. I also attended a UX 
 				lab session for testing the High Cost Credit Payment page, focusing on the latest designs with customers 
 				and non-customers.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/010319-ux.JPEG',
-				days: {
-					1: {
-						title: 'Day 5 - 01<sup>st</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/010319-ux.JPEG',
+                days: {
+                    1: {
+                        title: 'Day 5 - 01<sup>st</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Updated logbook<br />
 						4thway – Google Chromebook, including copy, desktop and mobile on both brands. Later asked to 
 						remove the heading copy promoting sale, since only a selection of products had been reduced.
@@ -2796,10 +2796,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						This involved adding in one new sub-navigation tab to display information about a new product. 
 						This update was for both Very and LW.
 						`,
-					},
-					2: {
-						title: 'Day 1 - 04<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 1 - 04<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Finished off the Huawei brand store update for desktop & mobile, sent over for sign off. 
 						4thway on the fitness & wellbeing page, promoting the new Fitbit watch. Involved adding additional 
 						copy and a CTA button. This update was for desktop & mobile on both brands.
@@ -2808,10 +2808,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						This update was for both desktop & mobile on both brands, however I only picked up mobile given 
 						Jill had previously began working on the desktop build.
 						`,
-					},
-					3: {
-						title: 'Day 2 - 05<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 2 - 05<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Continued working on the Sony mobile update, for mobile on both brands. Given there were several 
 						videos, both new and on site currently, I replaced the video HTML and CSS for each video, as well 
 						as the JS, to align with the more recent mobile video template (given the old version would continue 
@@ -2823,10 +2823,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						their HTML, CSS and JS separated.<br />
 						Also added a ‘beautify’ extension that allows for auto-indentation of specific blocks or a whole document.
 						`,
-					},
-					4: {
-						title: 'Day 3 - 06<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    4: {
+                        title: 'Day 3 - 06<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Logbook website: <br />
 						-	Home page regeneration, adding in a blurred background with faded centre container containing all 
 						home page information.
@@ -2839,10 +2839,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Highlighting the BNPL buttons on the BNPL area.<br />
 						Highlighting the modal is scrollable.
 						`,
-					},
-					5: {
-						title: 'Day 4 - 07<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 4 - 07<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Logbook website:<br/ >
 						Hover effects on the Album page, zoom feature with faded cover<br />
 						Customer Journey tribe retro: <br />
@@ -2861,28 +2861,28 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						the week selected. These accordions are displayed within the modal popup of the week that is clicked. 
 						Also cleaned up JavaScript code so it flows smoothly, being much easier to read and follow.
 						`,
-					},
-					6: {
-						title: 'Day 5 - 08<sup>th</sup> March 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    6: {
+                        title: 'Day 5 - 08<sup>th</sup> March 2019',
+                        information: `<strong>All Day</strong><br />
 						Holiday
 						`,
-					}
-				}
-			},
-			2: {
-				title: 'Week 36',
-				date: '11/03/19 - 15/03/19',
-				information: `This week I picked up several projects for the supplier funded content team, 
+                    }
+                }
+            },
+            2: {
+                title: 'Week 36',
+                date: '11/03/19 - 15/03/19',
+                information: `This week I picked up several projects for the supplier funded content team, 
 				including the Asics brand store update on desktop & mobile. The main project I focused on 
 				this week was the Littlewoods ‘One for’ landing pages videos. This involved adding in videos 
 				to several pages across the LW site, a total of 23 on desktop and mobile separately.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/110319-video.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 11<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/110319-video.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 11<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Tommee Tippee banner removal on child & baby gallery page.<br />
 						Sealy banner removal on Smart home landing page.<br />
 						Added in logbook content to the config.js file for my logbook website.<br />
@@ -2896,20 +2896,20 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						to align more closely with the fuse design guidelines. So far, the software has improved 
 						efficiency in the team, speeding up copying of styles and text when building content.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 12<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 12<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Asics brand store amends, involving the repositioning of copy on desktop, replacing an 
 						image cell on mobile, and restyling copy to match the new fuse design guidelines.
 						<br /><strong>Afternoon</strong><br />
 						Sony mobile landing page (mobile build) amends complete, including repositioning and 
 						resizing several image containers and text.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 13<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 13<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Today I worked from home. OCB (order confirmation page) banner – ‘very best’ products 
 						promotion.
 						<br /><strong>Afternoon</strong><br />
@@ -2921,10 +2921,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Fridges and freezers (x4)<br />
 						Cookers (x8)
 						`,
-					},
-					4: {
-						title: 'Day 4 - 14<sup>th</sup> March 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 14<sup>th</sup> March 2019',
+                        information: `<strong>All Day</strong><br />
 						LW ‘One for’ videos, adding in 23 videos across the following pages. Finished off 
 						desktop CSS and began mobile.<br />
 						Tumble dryers (x4)<br />
@@ -2933,10 +2933,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Fridges and freezers (x4)<br />
 						Cookers (x8)						
 						`,
-					},
-					5: {
-						title: 'Day 5 - 15<sup>th</sup> March 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 15<sup>th</sup> March 2019',
+                        information: `<strong>All Day</strong><br />
 						LW ‘One for’ videos, adding in 23 videos across the following pages. This process involved 
 						adding in the videos to the mobile build of each page, as I had completed desktop builds 
 						the previous day.<br /> 
@@ -2948,23 +2948,23 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						Cookers (x8)<br />
 						Table tennis tournament with the content team.
 						`,
-					}
-				}
-			},
-			3: {
-				title: 'Week 37',
-				date: '18/03/19 - 22/03/19',
-				information: `The majority of this week was spent adding in content from my logs to the 
+                    }
+                }
+            },
+            3: {
+                title: 'Week 37',
+                date: '18/03/19 - 22/03/19',
+                information: `The majority of this week was spent adding in content from my logs to the 
 				website, editing the copy as I went on so that it was in a more presentable and readable format. I also 
 				attended the Content team meeting, with talks from Joe F, Joe P, Luis and Shaun. We arranged a Content 
 				team table tennis tournament in the Cube in Skyways 2, which Luis won and I came second. We then all 
 				went bowling at Edge lane which was a good laugh.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/180319-pingpong.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 18<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/180319-pingpong.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 18<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Began adding in logbook content to the website.
 						<br /><strong>Afternoon</strong><br />
 						Dyson 4thways and Dyson banner on the order confirmation page. These Dyson banners 
@@ -2972,17 +2972,17 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						page, on both desktop and mobile across Very and Littlewoods. The Dyson order 
 						confirmation banner is only to be positioned on desktop on both brands.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 19<sup>th</sup> March 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 19<sup>th</sup> March 2019',
+                        information: `<strong>All Day</strong><br />
 						Spent the day working on adding in content from my logs to the website, editing the copy as 
 						I went on so that it was in a more presentable and readable format. 
 						`,
-					},
-					3: {
-						title: 'Day 3 - 20<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 20<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Continued to add content to logbook website.
 						<br /><strong>Afternoon</strong><br />
 						Attended the Content team meeting, with talks from Joe F, Joe P, Luis and Shaun. 
@@ -3001,10 +3001,10 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						builds so that these features are scalable.
 
 						`,
-					},
-					4: {
-						title: 'Day 4 - 21<sup>th</sup> March 2019',
-						information: `<strong>All Day/strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 21<sup>th</sup> March 2019',
+                        information: `<strong>All Day/strong><br />
 						This morning I had a one-to-one with Matt, where we discussed my university assignments 
 						and current progress. I also mentioned about the possibility of me staying on in the summer 
 						as Lucy did the previous year until she returned to university, however given the current 
@@ -3017,64 +3017,64 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						<br /><strong>Afternoon</strong><br />
 							
 						`,
-					},
-					5: {
-						title: 'Day 5 - 22<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 22<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						This morning I added in content to my logbook website.
 						<br /><strong>Afternoon</strong><br />
 						We arranged a Content team table tennis tournament in the Cube in Skyways 2, which Luis 
 						won and I came second. We then all went bowling at Edge lane which was a good laugh.
 
 						`,
-					}
-				}
-			},
-			4: {
-				title: 'Week 38',
-				date: '25/03/19 - 29/03/19',
-				information: `This week I spent time updating the TV & Audio tab on the Samsung brand store, 
+                    }
+                }
+            },
+            4: {
+                title: 'Week 38',
+                date: '25/03/19 - 29/03/19',
+                information: `This week I spent time updating the TV & Audio tab on the Samsung brand store, 
 				providing a link through to the QLED landing page to promote the new 4k screens. As Luis was 
 				building this update for desktop, I took on mobile. I also attended a tour of the Customer 
 				Closeness Centre (CCC) to find out more about what they do.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/250319-ccc.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 25<sup>th</sup> March 2019',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/250319-ccc.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 25<sup>th</sup> March 2019',
+                        information: `<strong>All Day</strong><br />
 						Today I spent time updating the TV & Audio tab on the Samsung brand store, providing a 
 						link through to the QLED landing page to promote the new 4k screens. As Luis was building 
 						this update for desktop, I took on mobile.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 26<sup>th</sup> March 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 26<sup>th</sup> March 2019',
+                        information: `<strong>All Day</strong><br />
 						Today I spent time working on the second part of the Samsung brand store update, 
 						creating the QLED landing page to promote the new 4k screens. This was a mobile build that 
 						included custom sliders and videos.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 27<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 27<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Worked from home<br />
 						This morning I amended the Samsung brand store update, and corresponding QLED 
 						landing page that links from this. I then spent the remainder of the day updating 
 						my logbook content, ensuring it was of a readable format (not in note form).
 						`,
-					},
-					4: {
-						title: 'Day 4 - 28<sup>th</sup> March 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 28<sup>th</sup> March 2019',
+                        information: `<strong>All Day</strong><br />
 						Today I worked through my logbook content, ensuring it was of a readable 
 						format, up to date, and ready to add to my logbook website.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 29<sup>th</sup> March 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 29<sup>th</sup> March 2019',
+                        information: `<strong>Morning</strong><br />
 						Attended a tour of the Customer Closeness Centre (CCC) to find out more about what they do. 
 						On the 14th February, the CCC was officially launched, built to help become a truly 
 						customer-centric business and find the root causes of any bad experiences so that the 
@@ -3082,43 +3082,43 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						<br /><strong>Afternoon</strong><br />
 						This afternoon we had another Content team table tennis tournament in the Cube in Skyways 2.
 						`,
-					}
-				}
-			}
-		}
-	},
-	Apr: {
-		week: {
-			1: {
-				title: 'Week 39',
-				date: '01/04/19 - 05/04/19',
-				information: `This week was focused on adding content from my logbooks to my logbook website, 
+                    }
+                }
+            }
+        }
+    },
+    Apr: {
+        week: {
+            1: {
+                title: 'Week 39',
+                date: '01/04/19 - 05/04/19',
+                information: `This week was focused on adding content from my logbooks to my logbook website, 
 				given the content schedule could be easily covered by the rest of the team, and that I had no 
 				other projects currently underway.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/010419-site.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 01<sup>st</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/010419-site.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 01<sup>st</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Today I worked on my logbook website, first finding a web hosting service online and 
 						uploading my local build onto the site. I chose to use 000webhost.com as they offer 
 						a free service with 1GB disk space and up to 10GB bandwidth which is more than large 
 						enough for the purpose of my Logbook website. I spent the remainder of the day updating 
 						my logbook content so that it was of a readable format.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 02<sup>nd</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 02<sup>nd</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						This morning I added content from my logbooks to my logbook website. This afternoon 
 						I completed the compulsory LinkedIn learning courses on hacking and using Skype for 
 						Business, with the recent implementation of Skype to replace using handheld phones.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 03<sup>rd</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 03<sup>rd</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Today I spent time adding content from my logbooks to my logbook website. During the 
 						afternoon I had a meeting with Matt Wafer to discuss my university assignments and the 
 						opportunity to extend my contract until August. I provided him with a link to my logbook 
@@ -3129,42 +3129,42 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						further. He agreed and began chasing up so I can sort out alternative plans should I finish 
 						at the end of April.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 04<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 04<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						This morning I added content from my logbooks to my logbook website. This afternoon I worked 
 						on a 4thway promoting the Geox brand on the womens flats page under the shoes and boots category. Following this, I worked on adding content to my logbook.
 						`,
-					},
-					5: {
-						title: 'Day 5 - 05<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 05<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Holiday							
 						`,
-					}
-				}
-			},
-			2: {
-				title: 'Week 40',
-				date: '08/04/19 - 12/04/19',
-				information: `For the short time I spent in work this week, I focused on adding content from 
+                    }
+                }
+            },
+            2: {
+                title: 'Week 40',
+                date: '08/04/19 - 12/04/19',
+                information: `For the short time I spent in work this week, I focused on adding content from 
 				my logbooks to my logbook website. After a meeting with Mike Heath I was made aware of the current 
 				financial situation of the department, meaning that I would be unable to extend my contract throughout 
 				the summer. Consequently, I booked in my remanining holdays before finishing at the end of the month.
 				`,
-				image: 'C:/Users/emar694/OneDrive - Shop Direct Group/Logs/Site/images/log_images/080419-site.jpg',
-				days: {
-					1: {
-						title: 'Day 1 - 08<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                image: 'https://jeffjordan97.github.io/Logbook/images/log_images/080419-site.jpg',
+                days: {
+                    1: {
+                        title: 'Day 1 - 08<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Today I focused on adding content to my logbook page, and began designing the look and feel of the 
 						contact page.
 						`,
-					},
-					2: {
-						title: 'Day 2 - 09<sup>th</sup> April 2019',
-						information: `<strong>Morning</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 09<sup>th</sup> April 2019',
+                        information: `<strong>Morning</strong><br />
 						This morning I worked on the contact page of my logbook website, adding in fields to enable the 
 						user to add in contact information easily.
 						<br /><strong>Afternoon</strong><br />
@@ -3173,134 +3173,134 @@ window.monthsArr = {		//Global variable - created from the window so declared at
 						extend my contract at Shop Direct throughout the summer given the recent redundancies in the 
 						department. As a result, selected dates over the coming weeks to use up my remaining holidays.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 10<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 10<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Holiday
 						`,
-					},
-					4: {
-						title: 'Day 4 - 11<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 11<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Holiday
 						`,
-					},
-					5: {
-						title: 'Day 5 - 12<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 12<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Holiday
 						`,
-					}
-				}
-			},
-			3: {
-				title: 'Week 41',
-				date: '15/04/19 - 19/04/19',
-				information: `Monday, Thursday and Friday this week were holidays, so this week was relatively short. 
+                    }
+                }
+            },
+            3: {
+                title: 'Week 41',
+                date: '15/04/19 - 19/04/19',
+                information: `Monday, Thursday and Friday this week were holidays, so this week was relatively short. 
 				For the days that I was in work, I continued to add content to my logbook website, given the content 
 				schedule could be easily covered by the rest of the team, and I had no outstanding projects.
 				`,
-				image: '',
-				days: {
-					1: {
-						title: 'Day 1 - 15<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                image: '',
+                days: {
+                    1: {
+                        title: 'Day 1 - 15<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Holiday
 						`,
-					},
-					2: {
-						title: 'Day 2 - 16<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 16<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Today I worked on my logbook website, adding content from my logbooks to the site.
 						`,
-					},
-					3: {
-						title: 'Day 3 - 17<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 17<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						During the morning I worked on my logbook website, adding content from my logbooks to the site. 
 						In the afternoon, the content team had another table tennis tournament, given friday was a bank 
 						holiday.
 						`,
-					},
-					4: {
-						title: 'Day 4 - 18<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 18<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Holiday
 						`,
-					},
-					5: {
-						title: 'Day 5 - 19<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 19<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Bank Holiday
 						`,
-					}
-				}
-			},
-			4: {
-				title: 'Week 42',
-				date: '22/04/19 - 26/04/19',
-				information: `This week, due to a bank holiday and booked holidays, I spent only Friday in work. 
+                    }
+                }
+            },
+            4: {
+                title: 'Week 42',
+                date: '22/04/19 - 26/04/19',
+                information: `This week, due to a bank holiday and booked holidays, I spent only Friday in work. 
 				During this time, I had a trial run of my presentation for the end of placement presentation. This 
 				presentation accounts for 15% of my overall grade for the year in industry 
 				`,
-				image: '',
-				days: {
-					1: {
-						title: 'Day 1 - 22<sup>nd</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                image: '',
+                days: {
+                    1: {
+                        title: 'Day 1 - 22<sup>nd</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Bank Holiday
 						`,
-					},
-					2: {
-						title: 'Day 2 - 23<sup>rd</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 23<sup>rd</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Holiday
 						`,
-					},
-					3: {
-						title: 'Day 3 - 24<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    3: {
+                        title: 'Day 3 - 24<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Holiday
 						`,
-					},
-					4: {
-						title: 'Day 4 - 25<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    4: {
+                        title: 'Day 4 - 25<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Holiday
 						`,
-					},
-					5: {
-						title: 'Day 5 - 26<sup>th</sup> April 2019',
-						information: `<strong>All Day</strong><br />
+                    },
+                    5: {
+                        title: 'Day 5 - 26<sup>th</sup> April 2019',
+                        information: `<strong>All Day</strong><br />
 						Today I had a trial run of my presentation for the end of placement. This presentation 
 						accounts for 15% of my overall grade for the year in industry, hence it was important 
 						that I prepared as much as possible. Performing the presentation in front of Matt, Mike 
 						and Jill allowed me to add in further valuable content to help ensure my academic advisor 
 						fully understand my roles and responsibilities over the year.
 						`,
-					}
-				}
-			},
-			5: {
-				title: 'Week 43',
-				date: '29/04/19 - 30/04/19',
-				information: `This is the final week of my placement.
+                    }
+                }
+            },
+            5: {
+                title: 'Week 43',
+                date: '29/04/19 - 30/04/19',
+                information: `This is the final week of my placement.
 				`,
-				image: '',
-				days: {
-					1: {
-						title: 'Day 1 - 29<sup>th</sup> April 2019',
-						information: `<strong>To be added...</strong><br />
+                image: '',
+                days: {
+                    1: {
+                        title: 'Day 1 - 29<sup>th</sup> April 2019',
+                        information: `<strong>To be added...</strong><br />
 						`,
-					},
-					2: {
-						title: 'Day 2 - 30<sup>th</sup> April 2019',
-						information: `<strong>To be added...</strong><br />
+                    },
+                    2: {
+                        title: 'Day 2 - 30<sup>th</sup> April 2019',
+                        information: `<strong>To be added...</strong><br />
 						`,
-					}
-				}
-			}
-		}
-	}
+                    }
+                }
+            }
+        }
+    }
 };
